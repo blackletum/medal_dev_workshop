@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "68"
+	"mapversion" "79"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -95,7 +95,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "68"
+	"mapversion" "79"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -3594,6 +3594,7 @@ world
 		editor
 		{
 			"color" "0 115 204"
+			"visgroupid" "34"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -8135,39 +8136,6 @@ world
 	}
 	group
 	{
-		"id" "34722"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "34501"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "34948"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "34722"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "35187"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "34948"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "34309"
 		editor
 		{
@@ -8183,39 +8151,6 @@ world
 		{
 			"color" "220 220 220"
 			"groupid" "34309"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "34760"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "34532"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "34993"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "34760"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "35239"
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "34993"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -44733,28 +44668,28 @@ entity
 	"pitch" "100"
 	"radius" "1250"
 	"soundflags" "0"
-	"spawnflags" "49"
+	"spawnflags" "17"
 	"targetname" "combat_music"
 	connections
 	{
-		"OnSound18Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound17Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound16Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound15Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound14Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound13Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound12Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound11Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound10Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound09Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound08Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound07Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound06Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound05Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound04Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound03Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound02Finished" "combat_music_casePickRandomShuffle10-1"
-		"OnSound01Finished" "combat_music_casePickRandomShuffle10-1"
+		"OnSound18Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound17Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound16Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound15Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound14Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound13Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound12Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound11Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound10Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound09Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound08Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound07Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound06Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound05Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound04Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound03Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound02Finished" "combat_music_random_relayTrigger10-1"
+		"OnSound01Finished" "combat_music_random_relayTrigger10-1"
 	}
 	"origin" "-592 -320 -808"
 	editor
@@ -44778,14 +44713,14 @@ entity
 	"pitch" "100"
 	"radius" "1250"
 	"soundflags" "0"
-	"spawnflags" "49"
+	"spawnflags" "17"
 	"targetname" "extract_music"
 	connections
 	{
-		"OnSound01Finished" "extract_music_casePickRandomShuffle10-1"
-		"OnSound02Finished" "extract_music_casePickRandomShuffle10-1"
-		"OnSound03Finished" "extract_music_casePickRandomShuffle10-1"
-		"OnSound04Finished" "extract_music_casePickRandomShuffle10-1"
+		"OnSound01Finished" "extract_music_random_relayTrigger10-1"
+		"OnSound02Finished" "extract_music_random_relayTrigger10-1"
+		"OnSound03Finished" "extract_music_random_relayTrigger10-1"
+		"OnSound04Finished" "extract_music_random_relayTrigger10-1"
 	}
 	"origin" "-592 -304 -808"
 	editor
@@ -44811,7 +44746,7 @@ entity
 	"pitch" "100"
 	"radius" "1250"
 	"soundflags" "0"
-	"spawnflags" "49"
+	"spawnflags" "17"
 	"targetname" "lose_alldead_music"
 	"origin" "-592 -256 -808"
 	editor
@@ -44860,7 +44795,7 @@ entity
 		"OnCase05" "lose_alldead_musicPlaySound50-1"
 		"OnCase06" "lose_alldead_musicPlaySound60-1"
 	}
-	"origin" "-576 -248 -808"
+	"origin" "-560 -248 -808"
 	editor
 	{
 		"color" "0 100 250"
@@ -44881,9 +44816,14 @@ entity
 	{
 		"OnTrigger" "extract_musicStopAllSounds0-1"
 		"OnTrigger" "combat_musicStopAllSounds0-1"
-		"OnTrigger" "lose_alldead_casePickRandomShuffle0.1-1"
+		"OnTrigger" "lose_alldead_random_relayTrigger0.1-1"
+		"OnTrigger" "combat_music_random_relayDisable0-1"
+		"OnTrigger" "extract_music_random_relayDisable0-1"
+		"OnTrigger" "calm_music_random_relayDisable0-1"
+		"OnTrigger" "calm_musicStopAllSounds0-1"
+		"OnTrigger" "lose_alldead_voicelines_casePickRandomShuffle0-1"
 	}
-	"origin" "-560 -256 -808"
+	"origin" "-560 -264 -808"
 	editor
 	{
 		"color" "0 100 250"
@@ -44906,7 +44846,7 @@ entity
 		"OnCase03" "extract_musicPlaySound30-1"
 		"OnCase04" "extract_musicPlaySound40-1"
 	}
-	"origin" "-576 -304 -808"
+	"origin" "-560 -304 -808"
 	editor
 	{
 		"color" "0 100 250"
@@ -44964,7 +44904,7 @@ entity
 		"OnCase17" "combat_musicPlaySound170-1"
 		"OnCase18" "combat_musicPlaySound180-1"
 	}
-	"origin" "-576 -320 -808"
+	"origin" "-560 -320 -808"
 	editor
 	{
 		"color" "0 100 250"
@@ -44982,7 +44922,7 @@ entity
 	"StartDisabled" "0"
 	connections
 	{
-		"OnTrigger" "combat_music_casePickRandomShuffle0-1"
+		"OnTrigger" "calm_music_random_relayTrigger0-1"
 	}
 	solid
 	{
@@ -45108,6 +45048,370 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -11268]"
+	}
+}
+entity
+{
+	"id" "53865"
+	"classname" "trigger_once"
+	"origin" "-940 -446 -772.65"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	connections
+	{
+		"OnTrigger" "combat_music_start_relayTrigger0-1"
+	}
+	solid
+	{
+		"id" "53866"
+		side
+		{
+			"id" "15993"
+			"plane" "(-988 -388 -729.298) (-892 -388 -729.298) (-892 -504 -729.298)"
+			vertices_plus
+			{
+				"v" "-988 -388 -729.298"
+				"v" "-892 -388 -729.298"
+				"v" "-892 -504 -729.298"
+				"v" "-988 -504 -729.298"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 -0 16] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15992"
+			"plane" "(-988 -504 -816) (-892 -504 -816) (-892 -388 -816)"
+			vertices_plus
+			{
+				"v" "-988 -504 -816"
+				"v" "-892 -504 -816"
+				"v" "-892 -388 -816"
+				"v" "-988 -388 -816"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 -0 -0 -16] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15991"
+			"plane" "(-988 -388 -729.298) (-988 -504 -729.298) (-988 -504 -816)"
+			vertices_plus
+			{
+				"v" "-988 -388 -729.298"
+				"v" "-988 -504 -729.298"
+				"v" "-988 -504 -816"
+				"v" "-988 -388 -816"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0 -1 -0 -16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15990"
+			"plane" "(-892 -388 -816) (-892 -504 -816) (-892 -504 -729.298)"
+			vertices_plus
+			{
+				"v" "-892 -388 -816"
+				"v" "-892 -504 -816"
+				"v" "-892 -504 -729.298"
+				"v" "-892 -388 -729.298"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15989"
+			"plane" "(-892 -388 -729.298) (-988 -388 -729.298) (-988 -388 -816)"
+			vertices_plus
+			{
+				"v" "-892 -388 -729.298"
+				"v" "-988 -388 -729.298"
+				"v" "-988 -388 -816"
+				"v" "-892 -388 -816"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 -0 -16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15988"
+			"plane" "(-892 -504 -816) (-988 -504 -816) (-988 -504 -729.298)"
+			vertices_plus
+			{
+				"v" "-892 -504 -816"
+				"v" "-988 -504 -816"
+				"v" "-988 -504 -729.298"
+				"v" "-892 -504 -729.298"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11268]"
+	}
+}
+entity
+{
+	"id" "53877"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"targetname" "combat_music_random_relay"
+	connections
+	{
+		"OnTrigger" "combat_music_casePickRandom0-1"
+	}
+	"origin" "-576 -320 -808"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13268]"
+	}
+}
+entity
+{
+	"id" "53930"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"targetname" "extract_music_random_relay"
+	connections
+	{
+		"OnTrigger" "extract_music_casePickRandom0-1"
+	}
+	"origin" "-576 -304 -808"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13268]"
+	}
+}
+entity
+{
+	"id" "53942"
+	"classname" "ambient_generic_multiple"
+	"angles" "0 0 0"
+	"health" "10"
+	"message" "song19"
+	"message2" "song_hl1_20"
+	"message3" "song1"
+	"message4" "song2"
+	"message5" "song8"
+	"message6" "song33"
+	"message7" "ep_song0"
+	"message8" "ep2_song5"
+	"message9" "ep_song5"
+	"pitch" "100"
+	"radius" "1250"
+	"soundflags" "0"
+	"spawnflags" "17"
+	"targetname" "calm_music"
+	connections
+	{
+		"OnSound09Finished" "calm_music_random_relayTrigger10-1"
+		"OnSound08Finished" "calm_music_random_relayTrigger10-1"
+		"OnSound07Finished" "calm_music_random_relayTrigger10-1"
+		"OnSound06Finished" "calm_music_random_relayTrigger10-1"
+		"OnSound05Finished" "calm_music_random_relayTrigger10-1"
+		"OnSound04Finished" "calm_music_random_relayTrigger10-1"
+		"OnSound03Finished" "calm_music_random_relayTrigger10-1"
+		"OnSound02Finished" "calm_music_random_relayTrigger10-1"
+		"OnSound01Finished" "calm_music_random_relayTrigger10-1"
+	}
+	"origin" "-592 -336 -808"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13268]"
+	}
+}
+entity
+{
+	"id" "53946"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"targetname" "calm_music_random_relay"
+	connections
+	{
+		"OnTrigger" "calm_music_casePickRandom0-1"
+	}
+	"origin" "-576 -336 -808"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13268]"
+	}
+}
+entity
+{
+	"id" "53948"
+	"classname" "logic_case"
+	"angles" "0 0 0"
+	"MultipleCasesAllowed" "0"
+	"targetname" "calm_music_case"
+	connections
+	{
+		"OnCase01" "calm_musicPlaySound10-1"
+		"OnCase02" "calm_musicPlaySound20-1"
+		"OnCase03" "calm_musicPlaySound30-1"
+		"OnCase04" "calm_musicPlaySound40-1"
+		"OnCase05" "calm_musicPlaySound50-1"
+		"OnCase06" "calm_musicPlaySound60-1"
+		"OnCase07" "calm_musicPlaySound70-1"
+		"OnCase08" "calm_musicPlaySound80-1"
+		"OnCase09" "calm_musicPlaySound90-1"
+	}
+	"origin" "-560 -336 -808"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13268]"
+	}
+}
+entity
+{
+	"id" "53985"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"targetname" "combat_music_start_relay"
+	connections
+	{
+		"OnTrigger" "combat_music_random_relayTrigger0-1"
+		"OnTrigger" "calm_musicStopAllSounds0-1"
+		"OnTrigger" "calm_music_random_relayDisable0-1"
+	}
+	"origin" "-608 -328 -808"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13268]"
+	}
+}
+entity
+{
+	"id" "54005"
+	"classname" "ambient_generic_multiple"
+	"angles" "0 0 0"
+	"health" "10"
+	"message" "vo/mvm_all_dead01.mp3"
+	"message2" "vo/announcer_am_flawlessdefeat04.mp3"
+	"message3" "vo/announcer_failure.mp3"
+	"message4" "vo/announcer_you_failed.mp3"
+	"message5" "vo/announcer_you_must_not_fail_again.mp3"
+	"message6" "vo/mvm_all_dead02.mp3"
+	"pitch" "100"
+	"radius" "1250"
+	"soundflags" "0"
+	"spawnflags" "17"
+	"targetname" "lose_alldead_voicelines"
+	"origin" "-592 -216 -808"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13268]"
+	}
+}
+entity
+{
+	"id" "54015"
+	"classname" "logic_case"
+	"angles" "0 0 0"
+	"MultipleCasesAllowed" "0"
+	"targetname" "lose_alldead_voicelines_case"
+	connections
+	{
+		"OnCase01" "lose_alldead_voicelinesPlaySound10-1"
+		"OnCase02" "lose_alldead_voicelinesPlaySound20-1"
+		"OnCase03" "lose_alldead_voicelinesPlaySound30-1"
+		"OnCase04" "lose_alldead_voicelinesPlaySound40-1"
+		"OnCase05" "lose_alldead_voicelinesPlaySound50-1"
+		"OnCase06" "lose_alldead_voicelinesPlaySound60-1"
+	}
+	"origin" "-576 -216 -808"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13268]"
+	}
+}
+entity
+{
+	"id" "54078"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"targetname" "lose_alldead_random_relay"
+	connections
+	{
+		"OnTrigger" "lose_alldead_casePickRandom0-1"
+	}
+	"origin" "-576 -248 -808"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13268]"
 	}
 }
 cameras
