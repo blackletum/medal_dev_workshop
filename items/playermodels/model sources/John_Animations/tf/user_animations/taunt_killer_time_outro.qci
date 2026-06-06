@@ -1,0 +1,10 @@
+$sequence layer_taunt_killer_time_outro "taunt_killer_time_outro.dmx" fps 30.000000 hidden
+$sequence taunt_killer_time_outro "taunt_killer_time_outro.dmx" fps 30.000000 noanimation {
+	numframes 69
+	blendlayer layer_taunt_killer_time_outro 0 -1 60 68
+	ikrule lhand release 
+	event AE_WPN_HIDE 0
+	
+	event AE_CL_CREATE_PARTICLE_EFFECT 0 "taunt_ENGINEER_SPARKS start_at_origin back_lower"
+
+}

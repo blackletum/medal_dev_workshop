@@ -1,0 +1,38 @@
+// ENGY
+
+
+$pushd "../animations/dmx"
+
+//////////////////////////////////  FLIPS ////////////////////////////////////////////////////////
+// OFFER a flip and cycle
+$sequence taunt_flip_start "engy_flip_cycle.dmx" fps 30 {
+	numframes 214
+	event AE_WPN_HIDE 0
+}
+
+// GIVE a flip 
+$sequence layer_taunt_flip_success_initiator "engy_flip_give_flip.dmx" fps 30 hidden
+$sequence taunt_flip_success_initiator "engy_flip_give_flip.dmx" noanimation {
+	numframes 111
+	blendlayer layer_taunt_flip_success_initiator .. .. 105 111
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 100
+}	
+
+
+// DO a flip
+$sequence layer_taunt_flip_success_receiver "engy_flip_flip.dmx" fps 30 hidden
+$sequence taunt_flip_success_receiver "engy_flip_flip.dmx" noanimation {
+	numframes 152
+	blendlayer layer_taunt_flip_success_receiver .. .. 145 152
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 140
+	
+	event AE_CL_CREATE_PARTICLE_EFFECT 40 "taunt_flip_trail follow_attachment back_lower"
+  event AE_CL_CREATE_PARTICLE_EFFECT 58 "taunt_flip_land follow_attachment foot_R"
+
+}
+
+$popd
+
+///////////////////////////////////////////////////////////////////////////////////////////////////

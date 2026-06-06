@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "backpack/player/playermodels/carljohnson_large"
+	"$translucent" 1
+}

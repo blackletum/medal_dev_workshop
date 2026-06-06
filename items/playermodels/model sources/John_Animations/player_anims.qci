@@ -1,0 +1,860 @@
+
+$sequence reference "valve\male_humans\ragdoll_pose"
+
+$Weightlist 50percent "valvebiped.Bip01_Pelvis" 0.50
+
+$Weightlist Pelvis50 "valvebiped.Bip01_Spine" 1.0 "valvebiped.Bip01_Pelvis" 0.5 "ValveBiped.Bip01_L_Thigh" 0.0 "ValveBiped.Bip01_R_Thigh" 0.0
+
+$weightlist "weights_head_rot_z" {
+	 "ValveBiped.Bip01_Pelvis" 1
+	 "ValveBiped.Bip01_Spine" 1
+	 "ValveBiped.Bip01_Spine1" 1
+	 "ValveBiped.Bip01_Spine2" 1
+	 "ValveBiped.Bip01_Spine4" 1
+	 "ValveBiped.Bip01_Neck1" 1
+	 "ValveBiped.Bip01_Head1" 1
+	 "ValveBiped.forward" 1
+	 "ValveBiped.Bip01_R_Clavicle" 0
+	 "ValveBiped.Bip01_R_UpperArm" 0
+	 "ValveBiped.Bip01_R_Forearm" 0
+	 "ValveBiped.Bip01_R_Hand" 0
+	 "ValveBiped.Anim_Attachment_RH" 0
+	 "ValveBiped.Bip01_L_Clavicle" 0
+	 "ValveBiped.Bip01_L_UpperArm" 0
+	 "ValveBiped.Bip01_L_Forearm" 0
+	 "ValveBiped.Bip01_L_Hand" 0
+	 "ValveBiped.Anim_Attachment_LH" 0
+	 "ValveBiped.Bip01_R_Thigh" 0
+	 "ValveBiped.Bip01_R_Calf" 0
+	 "ValveBiped.Bip01_R_Foot" 0
+	 "ValveBiped.Bip01_R_Toe0" 0
+	 "ValveBiped.Bip01_L_Thigh" 0
+	 "ValveBiped.Bip01_L_Calf" 0
+	 "ValveBiped.Bip01_L_Foot" 0
+	 "ValveBiped.Bip01_L_Toe0" 0
+	 "ValveBiped.Bip01_L_Finger4" 0
+	 "ValveBiped.Bip01_L_Finger41" 0
+	 "ValveBiped.Bip01_L_Finger42" 0
+	 "ValveBiped.Bip01_L_Finger3" 0
+	 "ValveBiped.Bip01_L_Finger31" 0
+	 "ValveBiped.Bip01_L_Finger32" 0
+	 "ValveBiped.Bip01_L_Finger2" 0
+	 "ValveBiped.Bip01_L_Finger21" 0
+	 "ValveBiped.Bip01_L_Finger22" 0
+	 "ValveBiped.Bip01_L_Finger1" 0
+	 "ValveBiped.Bip01_L_Finger11" 0
+	 "ValveBiped.Bip01_L_Finger12" 0
+	 "ValveBiped.Bip01_L_Finger0" 0
+	 "ValveBiped.Bip01_L_Finger01" 0
+	 "ValveBiped.Bip01_L_Finger02" 0
+	 "ValveBiped.Bip01_R_Finger4" 0
+	 "ValveBiped.Bip01_R_Finger41" 0
+	 "ValveBiped.Bip01_R_Finger42" 0
+	 "ValveBiped.Bip01_R_Finger3" 0
+	 "ValveBiped.Bip01_R_Finger31" 0
+	 "ValveBiped.Bip01_R_Finger32" 0
+	 "ValveBiped.Bip01_R_Finger2" 0
+	 "ValveBiped.Bip01_R_Finger21" 0
+	 "ValveBiped.Bip01_R_Finger22" 0
+	 "ValveBiped.Bip01_R_Finger1" 0
+	 "ValveBiped.Bip01_R_Finger11" 0
+	 "ValveBiped.Bip01_R_Finger12" 0
+	 "ValveBiped.Bip01_R_Finger0" 0
+	 "ValveBiped.Bip01_R_Finger01" 0
+	 "ValveBiped.Bip01_R_Finger02" 0
+}
+
+$weightlist "weights_only_legs" {
+	 "ValveBiped.Bip01_Pelvis" 1
+	 "ValveBiped.Bip01_Spine" 0
+	 "ValveBiped.Bip01_Spine1" 0
+	 "ValveBiped.Bip01_Spine2" 0
+	 "ValveBiped.Bip01_Spine4" 0
+	 "ValveBiped.Bip01_Neck1" 0
+	 "ValveBiped.Bip01_Head1" 0
+	 "ValveBiped.forward" 1
+	 "ValveBiped.Bip01_R_Clavicle" 0
+	 "ValveBiped.Bip01_R_UpperArm" 0
+	 "ValveBiped.Bip01_R_Forearm" 0
+	 "ValveBiped.Bip01_R_Hand" 0
+	 "ValveBiped.Anim_Attachment_RH" 0
+	 "ValveBiped.Bip01_L_Clavicle" 0
+	 "ValveBiped.Bip01_L_UpperArm" 0
+	 "ValveBiped.Bip01_L_Forearm" 0
+	 "ValveBiped.Bip01_L_Hand" 0
+	 "ValveBiped.Anim_Attachment_LH" 0
+	 "ValveBiped.Bip01_R_Thigh" 1
+	 "ValveBiped.Bip01_R_Calf" 1
+	 "ValveBiped.Bip01_R_Foot" 1
+	 "ValveBiped.Bip01_R_Toe0" 1
+	 "ValveBiped.Bip01_L_Thigh" 1
+	 "ValveBiped.Bip01_L_Calf" 1
+	 "ValveBiped.Bip01_L_Foot" 1
+	 "ValveBiped.Bip01_L_Toe0" 1
+	 "ValveBiped.Bip01_L_Finger4" 0
+	 "ValveBiped.Bip01_L_Finger41" 0
+	 "ValveBiped.Bip01_L_Finger42" 0
+	 "ValveBiped.Bip01_L_Finger3" 0
+	 "ValveBiped.Bip01_L_Finger31" 0
+	 "ValveBiped.Bip01_L_Finger32" 0
+	 "ValveBiped.Bip01_L_Finger2" 0
+	 "ValveBiped.Bip01_L_Finger21" 0
+	 "ValveBiped.Bip01_L_Finger22" 0
+	 "ValveBiped.Bip01_L_Finger1" 0
+	 "ValveBiped.Bip01_L_Finger11" 0
+	 "ValveBiped.Bip01_L_Finger12" 0
+	 "ValveBiped.Bip01_L_Finger0" 0
+	 "ValveBiped.Bip01_L_Finger01" 0
+	 "ValveBiped.Bip01_L_Finger02" 0
+	 "ValveBiped.Bip01_R_Finger4" 0
+	 "ValveBiped.Bip01_R_Finger41" 0
+	 "ValveBiped.Bip01_R_Finger42" 0
+	 "ValveBiped.Bip01_R_Finger3" 0
+	 "ValveBiped.Bip01_R_Finger31" 0
+	 "ValveBiped.Bip01_R_Finger32" 0
+	 "ValveBiped.Bip01_R_Finger2" 0
+	 "ValveBiped.Bip01_R_Finger21" 0
+	 "ValveBiped.Bip01_R_Finger22" 0
+	 "ValveBiped.Bip01_R_Finger1" 0
+	 "ValveBiped.Bip01_R_Finger11" 0
+	 "ValveBiped.Bip01_R_Finger12" 0
+	 "ValveBiped.Bip01_R_Finger0" 0
+	 "ValveBiped.Bip01_R_Finger01" 0
+	 "ValveBiped.Bip01_R_Finger02" 0
+}
+
+$weightlist "weights_only_pelvis_and_above" {
+	 "ValveBiped.Bip01_Pelvis" 0
+	 "ValveBiped.Bip01_Spine" 1
+	 "ValveBiped.Bip01_Spine1" 1
+	 "ValveBiped.Bip01_Spine2" 1
+	 "ValveBiped.Bip01_Spine4" 1
+	 "ValveBiped.Bip01_Neck1" 1
+	 "ValveBiped.Bip01_Head1" 1
+	 "ValveBiped.forward" 1
+	 "ValveBiped.Bip01_R_Clavicle" 1
+	 "ValveBiped.Bip01_R_UpperArm" 1
+	 "ValveBiped.Bip01_R_Forearm" 1
+	 "ValveBiped.Bip01_R_Hand" 1
+	 "ValveBiped.Anim_Attachment_RH" 1
+	 "ValveBiped.Bip01_L_Clavicle" 1
+	 "ValveBiped.Bip01_L_UpperArm" 1
+	 "ValveBiped.Bip01_L_Forearm" 1
+	 "ValveBiped.Bip01_L_Hand" 1
+	 "ValveBiped.Anim_Attachment_LH" 1
+	 "ValveBiped.Bip01_R_Thigh" 0
+	 "ValveBiped.Bip01_R_Calf" 0
+	 "ValveBiped.Bip01_R_Foot" 0
+	 "ValveBiped.Bip01_R_Toe0" 0
+	 "ValveBiped.Bip01_L_Thigh" 0
+	 "ValveBiped.Bip01_L_Calf" 0
+	 "ValveBiped.Bip01_L_Foot" 0
+	 "ValveBiped.Bip01_L_Toe0" 0
+	 "ValveBiped.Bip01_L_Finger4" 1
+	 "ValveBiped.Bip01_L_Finger41" 1
+	 "ValveBiped.Bip01_L_Finger42" 1
+	 "ValveBiped.Bip01_L_Finger3" 1
+	 "ValveBiped.Bip01_L_Finger31" 1
+	 "ValveBiped.Bip01_L_Finger32" 1
+	 "ValveBiped.Bip01_L_Finger2" 1
+	 "ValveBiped.Bip01_L_Finger21" 1
+	 "ValveBiped.Bip01_L_Finger22" 1
+	 "ValveBiped.Bip01_L_Finger1" 1
+	 "ValveBiped.Bip01_L_Finger11" 1
+	 "ValveBiped.Bip01_L_Finger12" 1
+	 "ValveBiped.Bip01_L_Finger0" 1
+	 "ValveBiped.Bip01_L_Finger01" 1
+	 "ValveBiped.Bip01_L_Finger02" 1
+	 "ValveBiped.Bip01_R_Finger4" 1
+	 "ValveBiped.Bip01_R_Finger41" 1
+	 "ValveBiped.Bip01_R_Finger42" 1
+	 "ValveBiped.Bip01_R_Finger3" 1
+	 "ValveBiped.Bip01_R_Finger31" 1
+	 "ValveBiped.Bip01_R_Finger32" 1
+	 "ValveBiped.Bip01_R_Finger2" 1
+	 "ValveBiped.Bip01_R_Finger21" 1
+	 "ValveBiped.Bip01_R_Finger22" 1
+	 "ValveBiped.Bip01_R_Finger1" 1
+	 "ValveBiped.Bip01_R_Finger11" 1
+	 "ValveBiped.Bip01_R_Finger12" 1
+	 "ValveBiped.Bip01_R_Finger0" 1
+	 "ValveBiped.Bip01_R_Finger01" 1
+	 "ValveBiped.Bip01_R_Finger02" 1
+}
+
+$animation a_idle_tf_layer "fyzure/idlebreathe" subtract a_idle_tf_layer 0
+$animation a_idle_hl2_layer "valve\male_humans\idle02" subtract a_idle_hl2_layer 0
+
+$sequence idle_tf_layer a_idle_tf_layer fps 20 iklock rfoot 1 0 iklock lfoot 1 0 delta loop realtime weightlist 50percent
+$sequence idle_hl2_layer a_idle_hl2_layer fps 30 iklock rfoot 1 0 iklock lfoot 1 0 delta loop realtime
+
+// crouch walking, no weapon
+$animation a_Crouch_walkS "valve\male_humans\Crouch_walkS" {
+	loop LX LY rotateto -180
+	alignto reference
+}
+$animation a_Crouch_walkSE "valve\male_humans\Crouch_walkSE" {
+	loop LX LY rotateto -135
+	alignto reference
+}
+$animation a_Crouch_walkE "valve\male_humans\Crouch_walkE" { 
+	loop LX LY rotateto -90
+	alignto reference
+}
+$animation a_Crouch_walkNE "valve\male_humans\Crouch_walkNE" { 
+	loop LX LY rotateto -45
+	alignto reference
+}
+$animation a_Crouch_walkN "valve\male_humans\crouch_walkN" { 
+	loop LX LY rotateto 0
+	alignto reference
+}
+$animation a_Crouch_walkC "gordonfreakman\crouch_walkNInPlace" { 
+	loop LX LY rotate 0
+	alignto reference
+}
+$animation a_Crouch_walkNW "valve\male_humans\Crouch_walkNW" { 
+	loop LX LY rotateto 45
+	alignto reference
+}
+$animation a_Crouch_walkW "valve\male_humans\Crouch_walkW" { 
+	loop LX LY rotateto 90
+	alignto reference
+}
+$animation a_Crouch_walkSW "valve\male_humans\Crouch_walkSW" { 
+	loop LX LY rotateto 135
+	alignto reference
+}
+
+// running, no weapon
+$animation a_RunS "valve\male_humans\RunS" { 
+	loop LX LY startloop 0 rotateto -180
+	alignto reference
+}
+$animation a_RunSE "valve\male_humans\RunSE" { 
+	loop LX LY startloop 0 rotateto -135
+	alignto reference
+}
+$animation a_RunE "valve\male_humans\RunE" { 
+	loop LX LY startloop 0 rotateto -90
+	alignto reference
+}
+$animation a_RunNE "valve\male_humans\RunNE" { 
+	loop LX LY startloop 0 rotateto -45
+	alignto reference
+}
+$animation a_RunN "valve\male_humans\RunN" { 
+	loop LX LY startloop 0 rotateto 0
+	alignto reference
+}
+$animation a_RunC "valve\male_humans\idle_subtle" { 
+	loop startloop 0
+	alignto reference
+}
+$animation a_RunNW "valve\male_humans\RunNW" { 
+	loop LX LY startloop 0 rotateto 45
+	alignto reference
+}
+$animation a_RunW "valve\male_humans\RunW" { 
+	loop LX LY startloop 0 rotateto 90
+	alignto reference
+}
+$animation a_RunSW "valve\male_humans\RunSW" { 
+	loop LX LY startloop 0 rotateto 135
+	alignto reference
+}
+
+$animation "a_head_rot_z_lt_corrective_animation" "maxofs2d\a_head_rot_z_lt_corrective_animation.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+$animation "a_head_rot_corrective_animation" "maxofs2d\a_head_rot_corrective_animation.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+$animation "a_head_rot_z_rt_corrective_animation" "maxofs2d\a_head_rot_z_rt_corrective_animation.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+$animation "a_head_rot_dwn_corrective_animation" "maxofs2d\a_head_rot_dwn_corrective_animation.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+$animation "a_head_rot_up_corrective_animation" "maxofs2d\a_head_rot_up_corrective_animation.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+$animation "a_head_rot_lt_corrective_animation" "maxofs2d\a_head_rot_lt_corrective_animation.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+$animation "a_head_rot_rt_corrective_animation" "maxofs2d\a_head_rot_rt_corrective_animation.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+$animation "a_head_rot" "maxofs2d\a_head_rot.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_head_rot_corrective_animation" 0
+	weightlist "weights_head_rot_z"
+}
+
+$animation "a_head_rot_lt" "maxofs2d\a_head_rot_lt.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_head_rot_lt_corrective_animation" 0
+	weightlist "weights_head_rot_z"
+}
+
+$animation "a_head_rot_rt" "maxofs2d\a_head_rot_rt.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_head_rot_rt_corrective_animation" 0
+	weightlist "weights_head_rot_z"
+}
+
+$animation "a_head_rot_dwn" "maxofs2d\a_head_rot_dwn.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_head_rot_dwn_corrective_animation" 0
+	weightlist "weights_head_rot_z"
+}
+
+$animation "a_head_rot_up" "maxofs2d\a_head_rot_up.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_head_rot_up_corrective_animation" 0
+	weightlist "weights_head_rot_z"
+}
+
+$animation "a_head_rot_z_rt" "maxofs2d\a_head_rot_z_rt.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_head_rot_z_rt_corrective_animation" 0
+	weightlist "weights_head_rot_z"
+}
+
+$animation "a_head_rot_z_lt" "maxofs2d\a_head_rot_z_lt.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_head_rot_z_lt_corrective_animation" 0
+	weightlist "weights_head_rot_z"
+}
+
+$sequence "head_rot_z_unarmed" {
+	"a_head_rot_z_rt"
+	"a_head_rot"
+	"a_head_rot_z_lt"
+	autoplay
+	blend "body_yaw" 100 -100
+	blendwidth 3
+	delta
+	fadein 0.2
+	fadeout 0.2
+	hidden
+}
+
+$sequence "head_rot_y_unarmed" {
+	"a_head_rot_up"
+	"a_head_rot"
+	"a_head_rot_dwn"
+	autoplay
+	blend "body_pitch" 100 -100
+	blendwidth 3
+	delta
+	fadein 0.2
+	fadeout 0.2
+	hidden
+}
+
+$sequence crouch_walk_lose {
+	a_crouch_walkSW a_crouch_walkS a_crouch_walkSE
+	a_crouch_walkW  a_crouch_walkC a_crouch_walkE
+	a_crouch_walkNW a_crouch_walkN a_crouch_walkNE
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	ACT_HL2MP_WALK_CROUCH_LOSERSTATE 1 node "walking"
+}
+
+$sequence run_all {
+	a_runSW a_runS a_runSE
+	a_runW a_runC a_runE
+	a_runNW a_runN a_runNE
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	ACT_HL2MP_RUN 1 node "running"
+}
+
+// build weapon aim layers
+
+$makeaimlayer police_WalkN_pistol_aim_matrix	"valve\combine\police\WalkN_pistol_aim_matrix" 
+$makeaimlayer weapons_Pistol_aim_matrix			"valve\male_humans\WeaponAnims_Shared\Pistol_aim_matrix"
+$makeaimlayerD HL2DM_crouch_aim_pistol			"valve\HL2DM_crouch_aim_pistol"
+
+$makeaimlayer soldier_Aim_9_directions			"valve\combine\Aim_9_directions"
+$makeaimlayer soldier_Aim_9_directions_SG		"valve\combine\Aim_9_directions_SG"
+$makeaimlayer soldier_Crouch_aim_9_directions	"valve\combine\Crouch_aim_9_directions"
+$makeaimlayer weapons_Aim_9_directions			"valve\male_humans\WeaponAnims_Shared\Aim_9_directions"
+$makeaimlayer weapons_Aim_9_directions_Alert	"valve\male_humans\WeaponAnims_Shared\Aim_9_directions_Alert"
+$makeaimlayerC weapons_RunN_SMG1_Aim_9_directions "valve\male_humans\WeaponAnims_Shared\RunN_SMG1_Aim_9_directions"
+$makeaimlayer weapons_WalkN_SMG1_Alert_Aim_9_directions "valve\male_humans\WeaponAnims_Shared\WalkN_SMG1_Alert_Aim_9_directions"
+
+$makeaimlayer weapons_Aim_RPG_9_directions		"valve\male_humans\WeaponAnims_Shared\Aim_RPG_9_directions"
+$makeaimlayerD HL2DM_crouch_aim_RPG				"valve\HL2DM_crouch_aim_RPG"
+
+$makeaimlayerD HL2DM_Aim_Gravgun					"valve\HL2DM_Aim_Gravgun"
+$makeaimlayerC HL2DM_Run_Aim_Gravgun				"valve\HL2DM_Run_Aim_Gravgun"
+$makeaimlayerD HL2DM_crouch_aim_gravgun			"valve\HL2DM_crouch_aim_gravgun"
+
+//my aimlayers
+
+$makeaimlayer fyzure_aimlayer_gravgun		"fyzure\gravgun_aimlayer"
+$makeaimlayer_noL fyzure_aimlayer_melee		"fyzure\melee_aimlayer"
+$makeaimlayer_noL fyzure_aimlayer_grenade	"fyzure\grenade_aimlayer"
+$makeaimlayer fyzure_aimlayer_pistol	"fyzure\pistol_aimlayer"
+$makeaimlayer fyzure_aimlayer_crossbow	"fyzure\crossbow_aimlayer"
+
+//gm aimlayers
+$makeaimlayer g_aimlayer_ar2	"maxofs2d\aimlayer_ar2"
+$makeaimlayer g_aimlayer_ar2_crouch	"maxofs2d\aimlayer_ar2"
+$makeaimlayer g_aimlayer_shotgun	"maxofs2d\aimlayer_shotgun"
+$makeaimlayer g_aimlayer_smg	"maxofs2d\aimlayer_smg"
+$makeaimlayer_twohanded g_aimlayer_melee2             "maxofs2d\aimlayer_melee2.smd"
+$makeaimlayer_twohanded g_aimlayer_melee2_crouch      "maxofs2d\aimlayer_melee2_crouch.smd"
+
+$makeidle	idle_pistol		"fyzure/pistol_pose" 0 fyzure_aimlayer_pistol ACT_HL2MP_IDLE_PISTOL 1 addlayer idle_tf_layer ikrule lhand touch "ValveBiped.Bip01_R_Hand"
+$makeidle	idle_shotgun	"valve\combine\Aim_9_directions_SG" 4 soldier_Aim_9_directions_SG ACT_HL2MP_IDLE_SHOTGUN 1 addlayer idle_tf_layer ikrule lhand touch "ValveBiped.Bip01_R_Hand"
+$makeidle	idle_smg1		"valve\combine\Hold_SMG1" 0 g_aimlayer_smg ACT_HL2MP_IDLE_SMG1 1 addlayer idle_tf_layer ikrule lhand touch "ValveBiped.Bip01_R_Hand"
+$makeidle	idle_ar2		"valve\combine\Hold_AR2" 0 g_aimlayer_ar2 ACT_HL2MP_IDLE_AR2 1 addlayer idle_tf_layer ikrule lhand touch "ValveBiped.Bip01_R_Hand"
+$makeidle	idle_gravgun	"fyzure/gravgun_pose" 0 fyzure_aimlayer_gravgun ACT_HL2MP_IDLE_PHYSGUN 1 addlayer idle_tf_layer ikrule lhand touch "ValveBiped.Bip01_R_Hand"
+$makeidle	idle_grenade	"fyzure/grenade_pose" 0 fyzure_aimlayer_grenade ACT_HL2MP_IDLE_GRENADE 1 addlayer idle_tf_layer 
+$makeidle	idle_rpg		"valve\male_humans\WeaponAnims_Shared\Aim_RPG_9_directions" 4 weapons_Aim_RPG_9_directions ACT_HL2MP_IDLE_RPG 1 addlayer idle_tf_layer ikrule lhand touch "ValveBiped.Bip01_R_Hand"
+$makeidle	idle_crossbow	"fyzure/crossbow_pose" 0 fyzure_aimlayer_crossbow ACT_HL2MP_IDLE_CROSSBOW 1 addlayer idle_tf_layer ikrule lhand touch "ValveBiped.Bip01_R_Hand"
+$makeidle	idle_melee	"fyzure/melee_pose" 0 fyzure_aimlayer_melee	 ACT_HL2MP_IDLE_MELEE 1 addlayer idle_tf_layer
+$makeidle	idle_melee2		"maxofs2d/aimlayer_melee2" 4 g_aimlayer_melee2 ACT_HL2MP_IDLE_MELEE_TWOHANDED 1 addlayer idle_tf_layer
+$makeidle	idle_slam	"valve\HL2DM_Idle_Slam" 0 soldier_Aim_9_directions ACT_HL2MP_IDLE_SLAM 1
+$makeidle	idle_357		"fyzure/pistol_pose" 0 fyzure_aimlayer_pistol ACT_HL2MP_IDLE_357 1 addlayer idle_tf_layer ikrule lhand touch "ValveBiped.Bip01_R_Hand"
+
+$makematchrun	run_pistol	"fyzure/pistol_pose" 0 fyzure_aimlayer_pistol ACT_HL2MP_RUN_PISTOL 1
+$makematchrun	run_shotgun	"valve\combine\Aim_9_directions_SG" 4 soldier_Aim_9_directions_SG ACT_HL2MP_RUN_SHOTGUN 1
+$makematchrun	run_smg1	"valve\male_humans\WeaponAnims_Shared\RunN_Alert_SMG1_Aim" 13 g_aimlayer_smg ACT_HL2MP_RUN_SMG1 1
+$makematchrun	run_ar2		"valve\combine\Hold_AR2" 0 g_aimlayer_ar2 ACT_HL2MP_RUN_AR2 1
+$makematchrun	run_gravgun "fyzure/gravgun_pose" 0 fyzure_aimlayer_gravgun ACT_HL2MP_RUN_PHYSGUN 1
+$makematchrunB	run_grenade "fyzure/grenade_pose" 0 fyzure_aimlayer_grenade ACT_HL2MP_RUN_GRENADE 1
+$makematchrun	run_rpg		"valve\male_humans\WeaponAnims_Shared\Aim_RPG_9_directions" 4 weapons_Aim_RPG_9_directions ACT_HL2MP_RUN_RPG 1
+$makematchrun	run_crossbow	"valve\HL2DM_Idle_Crossbow" 0 fyzure_aimlayer_crossbow ACT_HL2MP_RUN_CROSSBOW 1
+$makematchrunB	run_melee	"fyzure/melee_pose_run" 0 fyzure_aimlayer_melee ACT_HL2MP_RUN_MELEE 1
+$makematchrun   run_melee2		"maxofs2d/aimlayer_melee2" 4 g_aimlayer_melee2 ACT_HL2MP_RUN_MELEE_TWOHANDED 1
+$makematchrun	run_slam	"valve\HL2DM_Idle_Slam" 0 soldier_Aim_9_directions ACT_HL2MP_RUN_SLAM 1
+$makematchrun	run_357	"fyzure/pistol_pose" 0 fyzure_aimlayer_pistol ACT_HL2MP_RUN_357 1
+
+$makecidle	cidle_pistol	"valve\HL2DM_crouch_aim_pistol" 4 fyzure_aimlayer_pistol ACT_HL2MP_IDLE_CROUCH_PISTOL 1 
+$makecidle	cidle_shotgun	"valve\combine\Shoot_SG_crouch" 0 soldier_Crouch_aim_9_directions ACT_HL2MP_IDLE_CROUCH_SHOTGUN 1 
+$makecidle	cidle_smg1		"valve\combine\Shoot_SMG1_crouch" 0 g_aimlayer_smg ACT_HL2MP_IDLE_CROUCH_SMG1 1 
+$makecidle	cidle_ar2		"valve\combine\Shoot_AR2_crouch" 0 g_aimlayer_ar2_crouch ACT_HL2MP_IDLE_CROUCH_AR2 1 
+$makecidle	cidle_gravgun	"valve\HL2DM_crouch_aim_gravgun" 4 fyzure_aimlayer_gravgun ACT_HL2MP_IDLE_CROUCH_PHYSGUN 1 
+$makecidleB	cidle_grenade	"fyzure/grenade_pose" 0 "valve\HL2DM_crouch_aim_gravgun" 4 fyzure_aimlayer_grenade ACT_HL2MP_IDLE_CROUCH_GRENADE 1 
+$makecidle	cidle_rpg		"valve\HL2DM_crouch_aim_RPG" 4 HL2DM_crouch_aim_RPG ACT_HL2MP_IDLE_CROUCH_RPG 1  
+$makecidleB cidle_crossbow	"fyzure/crossbow_pose" 0 "valve\HL2DM_crouch_aim_gravgun" 4 fyzure_aimlayer_crossbow ACT_HL2MP_IDLE_CROUCH_CROSSBOW 1 
+$makecidleB	cidle_melee	"fyzure/melee_pose_alt" 0 "valve\HL2DM_crouch_aim_gravgun" 4 fyzure_aimlayer_melee ACT_HL2MP_IDLE_CROUCH_MELEE 1
+$makecidle	cidle_melee2	"maxofs2d/aimlayer_melee2_crouch" 4 g_aimlayer_melee2_crouch ACT_HL2MP_IDLE_CROUCH_MELEE_TWOHANDED 1
+$makecidleB	cidle_slam	"valve\HL2DM_Idle_Slam" 0 "valve\HL2DM_crouch_aim_gravgun" 4 soldier_Aim_9_directions ACT_HL2MP_IDLE_CROUCH_SLAM 1
+
+$makecidle	cidle_357	"valve\HL2DM_crouch_aim_pistol" 4 fyzure_aimlayer_pistol ACT_HL2MP_IDLE_CROUCH_357 1 
+
+//it looks like for the $makecidleB macro, the AimLayer isnt being added in.
+
+$makecwalk	cwalk_pistol	"valve\HL2DM_crouch_aim_pistol" 4 fyzure_aimlayer_pistol ACT_HL2MP_WALK_CROUCH_PISTOL 1 
+$makecwalk	cwalk_shotgun	"valve\combine\Shoot_SG_crouch" 0 soldier_Crouch_aim_9_directions ACT_HL2MP_WALK_CROUCH_SHOTGUN 1 
+$makecwalk	cwalk_smg1		"valve\combine\Shoot_SMG1_crouch" 0 g_aimlayer_smg ACT_HL2MP_WALK_CROUCH_SMG1 1 
+$makecwalk	cwalk_ar2		"valve\combine\Shoot_AR2_crouch" 0 g_aimlayer_ar2_crouch ACT_HL2MP_WALK_CROUCH_AR2 1 
+$makecwalk	cwalk_gravgun	"valve\HL2DM_crouch_aim_gravgun" 4 fyzure_aimlayer_gravgun ACT_HL2MP_WALK_CROUCH_PHYSGUN 1 
+$makecwalkB	cwalk_grenade	"fyzure/grenade_pose" 0 fyzure_aimlayer_grenade ACT_HL2MP_WALK_CROUCH_GRENADE 1
+$makecwalk	cwalk_rpg		"valve\HL2DM_crouch_aim_RPG" 4 HL2DM_crouch_aim_RPG ACT_HL2MP_WALK_CROUCH_RPG 1 
+$makecwalk	cwalk_crossbow	"fyzure/crossbow_pose" 0 fyzure_aimlayer_crossbow ACT_HL2MP_WALK_CROUCH_CROSSBOW 1 
+$makecwalkB	cwalk_melee	"fyzure/melee_pose_run" 0 fyzure_aimlayer_melee	 ACT_HL2MP_WALK_CROUCH_MELEE 1
+$makecwalk	cwalk_melee2	"maxofs2d/aimlayer_melee2_crouch" 4 g_aimlayer_melee2_crouch ACT_HL2MP_WALK_CROUCH_MELEE_TWOHANDED 1
+$makecwalk	cwalk_slam	"valve\HL2DM_Idle_Slam" 0 soldier_Aim_9_directions ACT_HL2MP_WALK_CROUCH_SLAM 1
+$makecwalk	cwalk_357	"valve\HL2DM_crouch_aim_pistol" 4 fyzure_aimlayer_pistol ACT_HL2MP_WALK_CROUCH_357 1 
+
+$makerange	range_pistol	"fyzure/pistol_fire" 0 ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL 1
+$makerange	range_shotgun	"valve\combine\Shoot_SG" 0 frames 0 29 ACT_HL2MP_GESTURE_RANGE_ATTACK_SHOTGUN 1
+$makerange	range_smg1		"valve\combine\Shoot_SMG1" 0 ACT_HL2MP_GESTURE_RANGE_ATTACK_SMG1 1
+$makerange	range_ar2		"valve\combine\Shoot_AR2" 0 ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2 1
+$makerange	range_gravgun	"fyzure/gravgun_launch" 0 ACT_HL2MP_GESTURE_RANGE_ATTACK_PHYSGUN 1
+$makerangeB	range_grenade	"fyzure/grenade_throw" 0 0 15 25 ACT_HL2MP_GESTURE_RANGE_ATTACK_GRENADE 1
+$makerangeB	range2_grenade	"fyzure/grenade_toss" 0 3 15 25 ACT_HL2MP_GESTURE_RANGE_SECONDARYATTACK_GRENADE 1
+$makerange	range_rpg		"valve\male_humans\WeaponAnims_Shared\ShootRPG" 0 ACT_HL2MP_GESTURE_RANGE_ATTACK_RPG 1
+$makerange	range_crossbow	"fyzure/crossbow_fire" 0 ACT_HL2MP_GESTURE_RANGE_ATTACK_CROSSBOW 1
+$makerangeB	range_melee	"fyzure\melee_swing.smd" 0 0 8 15 ACT_HL2MP_GESTURE_RANGE_ATTACK_MELEE 1 looping fps 30
+$makerangeB	range_melee2	"maxofs2d/melee2_attack_01" 0 0 8 15 ACT_HL2MP_GESTURE_RANGE_ATTACK_MELEE_TWOHANDED 1 fps 30 weightlist Pelvis50 fadein 0.2 fadeout 0.2
+$makerange	range_slam	"valve\HL2DM_deploy_SLAM" 0 ACT_HL2MP_GESTURE_RANGE_ATTACK_SLAM 1
+$makerange	range_357	"fyzure/pistol_357_fire" 0 ACT_HL2MP_GESTURE_RANGE_ATTACK_357 1
+
+$makejump	jump_pistol		"fyzure/pistol_pose" 0 fyzure_aimlayer_pistol ACT_HL2MP_JUMP_PISTOL 1  
+$makejump	jump_shotgun	"valve\combine\Aim_9_directions_SG" 4 soldier_Aim_9_directions_SG ACT_HL2MP_JUMP_SHOTGUN 1 
+$makejump	jump_smg1		"valve\combine\Shoot_SMG1_crouch" 0 g_aimlayer_smg ACT_HL2MP_JUMP_SMG1 1 
+$makejump	jump_ar2		"valve\combine\Shoot_AR2_crouch" 0 g_aimlayer_ar2 ACT_HL2MP_JUMP_AR2 1 
+$makejump	jump_gravgun	"fyzure/gravgun_pose" 0 fyzure_aimlayer_gravgun ACT_HL2MP_JUMP_PHYSGUN 1 
+$makejump	jump_grenade	"fyzure/grenade_pose" 0 fyzure_aimlayer_grenade ACT_HL2MP_JUMP_GRENADE 1 
+$makejump	jump_rpg		"valve\male_humans\WeaponAnims_Shared\Aim_RPG_9_directions" 4 soldier_Aim_9_directions ACT_HL2MP_JUMP_RPG 1 
+$makejump	jump_crossbow	"fyzure/crossbow_pose" 0 fyzure_aimlayer_crossbow ACT_HL2MP_JUMP_CROSSBOW 1 
+$makejump	jump_melee	"fyzure/melee_pose_alt" 0 fyzure_aimlayer_melee	ACT_HL2MP_JUMP_MELEE 1
+$makejump   jump_melee2		"maxofs2d/aimlayer_melee2" 4 g_aimlayer_melee2 ACT_HL2MP_JUMP_MELEE_TWOHANDED 1
+$makejump	jump_slam	"valve\HL2DM_Idle_SLAM" 0 soldier_Aim_9_directions ACT_HL2MP_JUMP_SLAM 1
+//$makejumpB	jump_lose	"fyzure/jump_all_start" 0 ACT_HL2MP_JUMP_LOSERSTATE 1
+$makejump	jump_357		"fyzure/pistol_pose" 0 fyzure_aimlayer_pistol ACT_HL2MP_JUMP_357 1  
+
+$sequence jump_lose "fyzure\jump_all_start.smd" ACT_HL2MP_JUMP_LOSERSTATE 1 fps 24 
+
+$makerangeB reload_pistol 	"fyzure/pistol_reload" 0 5 38 43 ACT_HL2MP_GESTURE_RELOAD_PISTOL 1
+$makerangeC reload_shotgun_start  "fyzure/shotgun_load_start" 0 10 20 20 ACT_HL2MP_GESTURE_RELOAD_SHOTGUN 1
+$makerangeC reload_shotgun_loop  "fyzure/shotgun_load_loop" 0 0 20 20 ACT_MP_RELOAD_STAND_PRIMARY_LOOP 1
+$makerangeC reload_shotgun_end  "fyzure/shotgun_load_end" 0 0 17 27 ACT_MP_RELOAD_STAND_PRIMARY_END 1
+$makerangeB reload_smg1		"valve\combine\Reload_standing" 0 9 57 65 ACT_HL2MP_GESTURE_RELOAD_SMG1 1
+$makerangeB reload_crossbow		"fyzure/crossbow_reload" 0 6 40 50 ACT_HL2MP_GESTURE_RELOAD_CROSSBOW 1
+$makerangeB reload_ar2		"valve\combine\Reload_standing" 0 9 57 65 ACT_HL2MP_GESTURE_RELOAD_AR2 1
+$makerangeB reload_357 	"fyzure/pistol_357_reload" 0 10 101 110 ACT_HL2MP_GESTURE_RELOAD_357 1
+
+// UNARMED
+
+$animation a_UnarmedRunS "valve\male_humans\alternative_sprint\a_RunS" { 
+	loop LX LY startloop 0 rotateto -180
+	alignto reference
+	fps 30
+}
+$animation a_UnarmedRunSE "valve\male_humans\alternative_sprint\a_RunSE" { 
+	loop LX LY startloop 0 rotateto -135
+	alignto reference
+	fps 30
+}
+$animation a_UnarmedRunE "valve\male_humans\alternative_sprint\a_RunE" { 
+	loop LX LY startloop 0 rotateto -90
+	alignto reference
+	fps 30
+}
+$animation a_UnarmedRunNE "valve\male_humans\alternative_sprint\a_RunNE" { 
+	loop LX LY startloop 0 rotateto -45
+	alignto reference
+	fps 30
+}
+$animation a_UnarmedRunN "valve\male_humans\RunN" { 
+	loop LX LY startloop 0 rotateto 0
+	alignto reference
+	fps 30
+}
+$animation a_UnarmedRunNW "valve\male_humans\alternative_sprint\a_RunNW" { 
+	loop LX LY startloop 0 rotateto 45
+	alignto reference
+	fps 30
+}
+$animation a_UnarmedRunW "valve\male_humans\alternative_sprint\a_RunW" { 
+	loop LX LY startloop 0 rotateto 90
+	alignto reference
+	fps 30
+}
+$animation a_UnarmedRunSW "valve\male_humans\alternative_sprint\a_RunSW" { 
+	loop LX LY startloop 0 rotateto 135
+	alignto reference
+	fps 30
+}
+
+$makeidle	idle_unarmed		"valve\male_humans\Idle_subtle" 0 head_rot_z_unarmed ACT_MP_STAND_MELEE 1 addlayer idle_tf_layer addlayer head_rot_y_unarmed
+$makecidle	cidle_unarmed		"maxofs2d\cidle_all" 0 head_rot_z_unarmed ACT_MP_CROUCH_MELEE 1 addlayer head_rot_y_unarmed 
+$makejump	jump_unarmed		"fyzure/jump_all_start" 0 head_rot_z_unarmed ACT_MP_JUMP_MELEE 1 addlayer idle_tf_layer addlayer head_rot_z_unarmed addlayer head_rot_y_unarmed
+$makejump	jump_start_unarmed		"fyzure/jump_all_start" 0 head_rot_z_unarmed ACT_MP_JUMP_START_MELEE 1 addlayer idle_tf_layer addlayer head_rot_z_unarmed addlayer head_rot_y_unarmed
+$makejump	jump_float_unarmed		"fyzure/jump_all_start" 0 head_rot_z_unarmed ACT_MP_JUMP_FLOAT_MELEE 1 addlayer idle_tf_layer addlayer head_rot_z_unarmed addlayer head_rot_y_unarmed
+$makejump	glide_unarmed		"fyzure/jump_all_start" 0 head_rot_z_unarmed ACT_MP_AIRWALK_MELEE 1 addlayer idle_tf_layer addlayer head_rot_z_unarmed addlayer head_rot_y_unarmed
+
+$sequence run_unarmed {
+	a_UnarmedRunSW a_UnarmedRunS a_UnarmedRunSE
+	a_UnarmedRunW valve\male_humans\idle_subtle a_UnarmedRunE
+	a_UnarmedRunNW a_UnarmedRunN a_UnarmedRunNE
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer "head_rot_z_unarmed"
+	addlayer "head_rot_y_unarmed"
+	ACT_MP_RUN_MELEE 1 node "running"
+}
+
+$sequence crouch_walk_unarmed {
+	a_crouch_walkSW a_crouch_walkS a_crouch_walkSE
+	a_crouch_walkW  a_crouch_walkC a_crouch_walkE
+	a_crouch_walkNW a_crouch_walkN a_crouch_walkNE
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	ACT_MP_CROUCHWALK_MELEE 1 node "walking"
+}
+
+//
+$animation a_jump_land "maxofs2d/jump_land" subtract a_jump_land 40
+$sequence jump_land "a_jump_land" delta fps 60 iklock rfoot 1 0 iklock lfoot 1 0 ACT_MP_JUMP_LAND 1
+
+$sequence jump_land_lose "a_jump_land" delta fps 60 iklock rfoot 1 0 iklock lfoot 1 0 ACT_MP_JUMP_LAND_LOSERSTATE 1
+
+$sequence primary_death_backstab "fyzure\death_backstab.smd" fps 30 
+
+$sequence primary_death_headshot "maxofs2d\death_01" fps 30
+
+$animation a_WalkS "valve\male_humans\WalkS" { 
+	loop LX LY startloop 0 rotateto -180
+	alignto reference
+}
+$animation a_WalkSE "valve\male_humans\WalkSE" { 
+	loop LX LY startloop 0 rotateto -135
+	alignto reference
+}
+$animation a_WalkE "valve\male_humans\WalkE" { 
+	loop LX LY startloop 0 rotateto -90
+	alignto reference
+}
+$animation a_WalkNE "valve\male_humans\WalkNE" { 
+	loop LX LY startloop 0 rotateto -45
+	alignto reference
+}
+$animation a_WalkN "valve\male_humans\WalkN" { 
+	loop LX LY startloop 0 rotateto 0
+	alignto reference
+}
+$animation a_WalkC "valve\male_humans\idle_subtle" { 
+	loop startloop 0
+	alignto reference
+}
+$animation a_WalkNW "valve\male_humans\WalkNW" { 
+	loop LX LY startloop 0 rotateto 45
+	alignto reference
+}
+$animation a_WalkW "valve\male_humans\WalkW" { 
+	loop LX LY startloop 0 rotateto 90
+	alignto reference
+}
+$animation a_WalkSW "valve\male_humans\WalkSW" { 
+	loop LX LY startloop 0 rotateto 135
+	alignto reference
+}
+
+$animation a_WalkN_additive "gordonfreakman\walkN_lonely" subtract a_WalkN 0
+
+$sequence WalkN_additive {
+	a_WalkN_additive
+	delta
+	hidden
+}
+
+$sequence idle_lose "valve\male_humans\idle_subtle" {
+	addlayer "WalkN_additive"
+	loop
+	ACT_HL2MP_IDLE_LOSERSTATE 1 node "running"
+}
+
+$sequence cidle_lose "valve\male_humans\CrouchIdle_D" {
+	addlayer "WalkN_additive"
+	loop
+	ACT_HL2MP_IDLE_CROUCH_LOSERSTATE 1 node "running"
+}
+
+//class select
+
+$sequence class_select "fyzure\john_select.smd" fps 24
+
+$sequence class_loop "fyzure\john_select_idle.smd" fps 24 loop addlayer idle_tf_layer ikrule lhand touch "ValveBiped.Bip01_R_Hand" fadeout 0.4
+
+$sequence run_lose {
+	a_walkSW a_walkS a_walkSE
+	a_walkW a_walkC a_walkE
+	a_walkNW a_walkN a_walkNE
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer "WalkN_additive"
+	ACT_HL2MP_RUN_LOSERSTATE 1 node "running"
+}
+
+$makeglide	glide_pistol		"fyzure/pistol_pose" 0 fyzure_aimlayer_pistol ACT_HL2MP_GLIDE_PISTOL 1  
+$makeglide	glide_shotgun	"valve\combine\Aim_9_directions_SG" 4 soldier_Aim_9_directions_SG ACT_HL2MP_GLIDE_SHOTGUN 1  
+$makeglide	glide_smg1		"valve\combine\Shoot_SMG1_crouch" 0 g_aimlayer_smg ACT_HL2MP_GLIDE_SMG1 1  
+$makeglide	glide_ar2		"valve\combine\Shoot_AR2_crouch" 0 g_aimlayer_ar2 ACT_HL2MP_GLIDE_AR2 1  
+$makeglide	glide_gravgun	"fyzure/gravgun_pose" 0 HL2DM_Aim_Gravgun ACT_HL2MP_GLIDE_PHYSGUN 1  
+$makeglide	glide_grenade	"fyzure/grenade_pose" 0 fyzure_aimlayer_grenade ACT_HL2MP_GLIDE_GRENADE 1 
+$makeglide	glide_rpg		"valve\male_humans\WeaponAnims_Shared\Aim_RPG_9_directions" 4 soldier_Aim_9_directions ACT_HL2MP_GLIDE_RPG 1 
+$makeglide	glide_crossbow	"fyzure/crossbow_pose" 0 fyzure_aimlayer_crossbow ACT_HL2MP_GLIDE_CROSSBOW 1 
+$makeglide	glide_melee	"fyzure/melee_pose_alt" 0 fyzure_aimlayer_melee	 ACT_HL2MP_GLIDE_MELEE 1
+$makeglide  glide_melee2	"maxofs2d/aimlayer_melee2" 4 g_aimlayer_melee2 ACT_HL2MP_GLIDE_MELEE_TWOHANDED 1
+$makeglide	glide_slam	"valve\HL2DM_Idle_SLAM" 0 soldier_Aim_9_directions ACT_HL2MP_GLIDE_SLAM 1
+//$makeglideB	glide_lose	"fyzure/jump_all_loop" 0 ACT_HL2MP_GLIDE_LOSERSTATE 1
+$makeglide	glide_357		"fyzure/pistol_pose" 0 fyzure_aimlayer_pistol ACT_HL2MP_GLIDE_357 1  
+
+$sequence glide_lose "fyzure\jump_all_loop.smd" ACT_HL2MP_GLIDE_LOSERSTATE 1 fps 24 loop
+
+$makebhopglide	bhopglide_pistol		"fyzure/pistol_pose" 0 fyzure_aimlayer_pistol ACT_HL2MP_BACKHOP_GLIDE_PISTOL 1  
+$makebhopglide	bhopglide_shotgun	"valve\combine\Aim_9_directions_SG" 4 soldier_Aim_9_directions_SG ACT_HL2MP_BACKHOP_GLIDE_SHOTGUN 1  
+$makebhopglide	bhopglide_smg1		"valve\combine\Shoot_SMG1_crouch" 0 g_aimlayer_smg ACT_HL2MP_BACKHOP_GLIDE_SMG1 1  
+$makebhopglide	bhopglide_ar2		"valve\combine\Shoot_AR2_crouch" 0 g_aimlayer_ar2 ACT_HL2MP_BACKHOP_GLIDE_AR2 1  
+$makebhopglide	bhopglide_gravgun	"fyzure/gravgun_pose" 0 fyzure_aimlayer_gravgun ACT_HL2MP_BACKHOP_GLIDE_PHYSGUN 1  
+$makebhopglide	bhopglide_grenade	"fyzure/grenade_pose" 0 fyzure_aimlayer_grenade ACT_HL2MP_BACKHOP_GLIDE_GRENADE 1 
+$makebhopglide	bhopglide_rpg		"valve\male_humans\WeaponAnims_Shared\Aim_RPG_9_directions" 4 soldier_Aim_9_directions ACT_HL2MP_BACKHOP_GLIDE_RPG 1 
+$makebhopglide	bhopglide_crossbow	"fyzure/crossbow_pose" 0 fyzure_aimlayer_crossbow ACT_HL2MP_BACKHOP_GLIDE_CROSSBOW 1 
+$makebhopglide	bhopglide_melee	"fyzure/melee_pose_alt" 0 fyzure_aimlayer_melee	 ACT_HL2MP_BACKHOP_GLIDE_MELEE 1
+$makebhopglide  bhopglide_melee2	"maxofs2d/aimlayer_melee2" 4 g_aimlayer_melee2 ACT_HL2MP_BACKHOP_GLIDE_TWOHANDED 1
+$makebhopglide	bhopglide_slam	"valve\HL2DM_Idle_SLAM" 0 soldier_Aim_9_directions ACT_HL2MP_BACKHOP_GLIDE_SLAM 1
+$makebhopglideB	bhopglide_lose	"valve\male_humans\Jumpup_45" 0 ACT_HL2MP_BACKHOP_GLIDE_LOSERSTATE 1
+$makebhopglide	bhopglide_357		"fyzure/pistol_pose" 0 fyzure_aimlayer_pistol ACT_HL2MP_BACKHOP_GLIDE_357 1  
+
+$makebackhop	backhop_pistol		"fyzure/pistol_pose" 0 fyzure_aimlayer_pistol ACT_HL2MP_BACKHOP_PISTOL 1  
+$makebackhop	backhop_shotgun	"valve\combine\Aim_9_directions_SG" 4 soldier_Aim_9_directions_SG ACT_HL2MP_BACKHOP_SHOTGUN 1  
+$makebackhop	backhop_smg1		"valve\combine\Shoot_SMG1_crouch" 0 g_aimlayer_smg ACT_HL2MP_BACKHOP_SMG1 1  
+$makebackhop	backhop_ar2		"valve\combine\Shoot_AR2_crouch" 0 g_aimlayer_ar2 ACT_HL2MP_BACKHOP_AR2 1  
+$makebackhop	backhop_gravgun	"fyzure/gravgun_pose" 0 fyzure_aimlayer_gravgun ACT_HL2MP_BACKHOP_PHYSGUN 1  
+$makebackhop	backhop_grenade	"fyzure/grenade_pose" 0 fyzure_aimlayer_grenade ACT_HL2MP_BACKHOP_GRENADE 1 
+$makebackhop	backhop_rpg		"valve\male_humans\WeaponAnims_Shared\Aim_RPG_9_directions" 4 soldier_Aim_9_directions ACT_HL2MP_BACKHOP_RPG 1 
+$makebackhop	backhop_crossbow	"fyzure/crossbow_pose" 0 fyzure_aimlayer_crossbow ACT_HL2MP_BACKHOP_CROSSBOW 1 
+$makebackhop	backhop_melee	"fyzure/melee_pose_run" 0 fyzure_aimlayer_melee	 ACT_HL2MP_BACKHOP_MELEE 1
+$makebackhop    backhop_melee2	"maxofs2d/aimlayer_melee2" 4 g_aimlayer_melee2 ACT_HL2MP_BACKHOP_MELEE_TWOHANDED 1
+$makebackhop	backhop_slam	"valve\HL2DM_Idle_SLAM" 0 soldier_Aim_9_directions ACT_HL2MP_BACKHOP_SLAM 1
+$makebackhopB	backhop_lose	"valve\male_humans\Jumpup_45" 0 ACT_HL2MP_BACKHOP_LOSERSTATE 1
+$makebackhop	backhop_357		"fyzure/pistol_pose" 0 fyzure_aimlayer_pistol ACT_HL2MP_BACKHOP_357 1  
+
+$weightlist armsblendstun {
+	"ValveBiped.Bip01_Pelvis" 1.0
+}
+//--------------------------------------------------------
+//primary stun layers
+//--------------------------------------------------------
+$sequence layer_PRIMARY_Stun_begin "fyzure\stun_begin.smd" weightlist armsblendstun {
+	hidden
+}
+
+$sequence layer_PRIMARY_stun_middle "fyzure\stun_middle.smd" weightlist armsblendstun {
+	hidden
+}
+
+$sequence layer_PRIMARY_Stun_end "fyzure\stun_end.smd" weightlist armsblendstun {
+	hidden
+}
+
+$animation a_stun_startpose "fyzure\stun_begin.smd" frames 0 0
+
+$animation a_stun_endpose "fyzure\stun_end.smd" frames 20 20
+
+//------------------------------------
+//primary stun
+//------------------------------------
+$sequence PRIMARY_Stun_begin {
+	"fyzure\stun_begin.smd"
+	snap
+	subtract a_stun_startpose 0
+	delta
+	ikrule lhand release
+	ikrule rhand release
+ 	blendlayer layer_PRIMARY_Stun_begin 0 7 25 25
+ 	activity ACT_MP_STUN_BEGIN 1
+}
+
+$sequence PRIMARY_stun_middle {
+	"fyzure\stun_middle.smd"
+	snap
+	subtract a_stun_startpose 0
+	delta
+	ikrule lhand release
+	ikrule rhand release
+	addlayer layer_PRIMARY_stun_middle
+ 	activity ACT_MP_STUN_MIDDLE 1
+}
+
+$sequence PRIMARY_stun_end {
+	"fyzure\stun_end.smd"
+	snap
+	subtract a_stun_startpose 0
+	delta
+	ikrule lhand release
+	ikrule rhand release
+	blendlayer layer_PRIMARY_Stun_end 0 0 10 21
+ 	activity ACT_MP_STUN_END 1
+}
+
+$sequence taunt01 "valve\male_humans\WeaponAnims_Shared\shotgun1_reload.smd" frames 40 75
+
+// sprinting, no weapon
+$animation a_SprintS "valve\male_humans\alternative_sprint\a_RunS" { 
+	loop LX LY startloop 0 rotateto -180
+	alignto reference
+	fps 40
+}
+$animation a_SprintSE "valve\male_humans\alternative_sprint\a_RunSE" { 
+	loop LX LY startloop 0 rotateto -135
+	alignto reference
+	fps 40
+}
+$animation a_SprintE "valve\male_humans\alternative_sprint\a_RunE" { 
+	loop LX LY startloop 0 rotateto -90
+	alignto reference
+	fps 40
+}
+$animation a_SprintNE "valve\male_humans\alternative_sprint\a_RunNE" { 
+	loop LX LY startloop 0 rotateto -45
+	alignto reference
+	fps 40
+}
+$animation a_SprintN "valve\male_humans\alternative_sprint\a_RunN" { 
+	loop LX LY startloop 0 rotateto 0
+	alignto reference
+	fps 40
+}
+$animation a_SprintNW "valve\male_humans\alternative_sprint\a_RunNW" { 
+	loop LX LY startloop 0 rotateto 45
+	alignto reference
+	fps 40
+}
+$animation a_SprintW "valve\male_humans\alternative_sprint\a_RunW" { 
+	loop LX LY startloop 0 rotateto 90
+	alignto reference
+	fps 40
+}
+$animation a_SprintSW "valve\male_humans\alternative_sprint\a_RunSW" { 
+	loop LX LY startloop 0 rotateto 135
+	alignto reference
+	fps 40
+}
+
+$sequence Sprint_all {
+	a_SprintSW a_SprintS a_SprintSE
+	a_SprintW a_runC a_SprintE
+	a_SprintNW a_SprintN a_SprintNE
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	ACT_HL2MP_SPRINT 1 node "running"
+}
+
+$makematchsprint	sprint_pistol	"fyzure/pistol_pose" 0 fyzure_aimlayer_pistol ACT_HL2MP_SPRINT_PISTOL 1 
+$makematchsprint	sprint_shotgun	"valve\combine\Aim_9_directions_SG" 4 soldier_Aim_9_directions_SG ACT_HL2MP_SPRINT_SHOTGUN 1 
+$makematchsprint	sprint_smg1	"valve\male_humans\WeaponAnims_Shared\RunN_Alert_SMG1_Aim" 13 g_aimlayer_smg ACT_HL2MP_SPRINT_SMG1 1 
+$makematchsprint	sprint_ar2		"valve\combine\Hold_AR2" 0 g_aimlayer_ar2 ACT_HL2MP_SPRINT_AR2 1 
+$makematchsprint	sprint_gravgun "fyzure/gravgun_pose" 0 fyzure_aimlayer_gravgun ACT_HL2MP_SPRINT_PHYSGUN 1 
+$makematchsprintB	sprint_grenade "fyzure/grenade_pose" 0 fyzure_aimlayer_grenade ACT_HL2MP_SPRINT_GRENADE 1 
+$makematchsprint	sprint_rpg		"valve\male_humans\WeaponAnims_Shared\Aim_RPG_9_directions" 4 weapons_Aim_RPG_9_directions ACT_HL2MP_SPRINT_RPG 1 
+$makematchsprint	sprint_crossbow	"fyzure/crossbow_pose" 0 fyzure_aimlayer_crossbow ACT_HL2MP_SPRINT_CROSSBOW 1 
+$makematchsprintB	sprint_melee	"fyzure/melee_pose_run" 0 fyzure_aimlayer_melee	 ACT_HL2MP_SPRINT_MELEE 1
+$makematchsprint    sprint_melee2		"maxofs2d/aimlayer_melee2" 4 g_aimlayer_melee2 ACT_HL2MP_SPRINT_MELEE_TWOHANDED 1
+$makematchsprint	sprint_slam	"valve\HL2DM_Idle_Slam" 0 soldier_Aim_9_directions ACT_HL2MP_SPRINT_SLAM 1
+$makematchsprint	sprint_357	"fyzure/pistol_pose" 0 fyzure_aimlayer_pistol ACT_HL2MP_SPRINT_357 1 

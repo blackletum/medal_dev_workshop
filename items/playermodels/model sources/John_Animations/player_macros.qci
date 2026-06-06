@@ -1,0 +1,844 @@
+
+
+$Weightlist HipsUpperbodyReplace "valvebiped.Bip01_Pelvis" 1.0 "ValveBiped.Bip01_L_Thigh" 0.0 "ValveBiped.Bip01_R_Thigh" 0.0
+$Weightlist UpperbodyReplace "valvebiped.Bip01_Spine" 1.0
+
+$Weightlist ArmsReplace {
+	"ValveBiped.Bip01_R_Clavicle" 1.0 
+	"ValveBiped.Bip01_L_Clavicle" 1.0 
+	}
+
+$Weightlist HipsLowerbodyReplace "valvebiped.Bip01_Pelvis" 1.0 "ValveBiped.Bip01_Spine" 0.0
+$Weightlist AllBones "valvebiped.Bip01_Pelvis" 1.0
+
+//new weights from fyzure!!
+
+// Movement weightlists
+
+$Weightlist MakeWalkNoLeftArm {
+	"ValveBiped.Bip01_Pelvis" 0.0
+	"ValveBiped.Bip01_Spine" 0.1
+	"ValveBiped.Bip01_Spine1" 0.2 
+	"ValveBiped.Bip01_Spine2" 0.3
+	"ValveBiped.Bip01_Spine4" 0.4
+	"ValveBiped.Bip01_L_Thigh" 0.0
+	"ValveBiped.Bip01_R_Thigh" 0.0
+	"ValveBiped.Bip01_L_Clavicle" 0.2
+	"ValveBiped.Bip01_L_Hand" 0.0
+	"ValveBiped.Bip01_R_Clavicle" 0.8
+	"ValveBiped.Bip01_R_UpperArm" 0.9
+	"ValveBiped.Bip01_R_Hand" 1.0
+	}
+	
+$Weightlist MakeCrouchWalkNoLeftArm {
+	"ValveBiped.Bip01_Pelvis" 0.0
+	"ValveBiped.Bip01_Spine" 0.05
+	"ValveBiped.Bip01_Spine1" 0.15
+	"ValveBiped.Bip01_Spine2" 0.25
+	"ValveBiped.Bip01_Spine4" 0.3
+	"ValveBiped.Bip01_L_Thigh" 0.0
+	"ValveBiped.Bip01_R_Thigh" 0.0
+	"ValveBiped.Bip01_L_Clavicle" 0.0
+	"ValveBiped.Bip01_L_Hand" 0.0
+	"ValveBiped.Bip01_R_Clavicle" 0.7
+	"ValveBiped.Bip01_R_UpperArm" 0.8
+	"ValveBiped.Bip01_R_Hand" 1.0
+	}
+
+$Weightlist MakeRunNoLeftArm {
+	"ValveBiped.Bip01_Pelvis" 0.0
+	"ValveBiped.Bip01_L_Thigh" 0.0
+	"ValveBiped.Bip01_R_Thigh" 0.0
+	"ValveBiped.Bip01_Spine" 0.0
+	"ValveBiped.Bip01_Spine1" 0.1
+	"ValveBiped.Bip01_Spine2" 0.2
+	"ValveBiped.Bip01_Spine4" 0.3
+	"ValveBiped.Bip01_L_Clavicle" 0.2
+	"ValveBiped.Bip01_L_Hand" 0.0
+	"ValveBiped.Bip01_R_Clavicle" 0.8
+	"ValveBiped.Bip01_R_UpperArm" 0.9
+	}
+
+$Weightlist MakeSwimNoLeftArm {
+	"ValveBiped.Bip01_Pelvis" 0.0
+	"ValveBiped.Bip01_L_Thigh" 0.0
+	"ValveBiped.Bip01_R_Thigh" 0.0
+	"ValveBiped.Bip01_Spine" 0.1 
+	"ValveBiped.Bip01_Spine1" 0.3 
+	"ValveBiped.Bip01_Spine2" 0.4 
+	"ValveBiped.Bip01_Spine4" 0.7 
+	"ValveBiped.Bip01_L_Clavicle" 0.0
+	"ValveBiped.Bip01_R_Clavicle" 0.9
+	"ValveBiped.Bip01_R_Hand" 1.0
+	}	
+	
+	// Aimlayer weightlists
+
+$Weightlist AimlayerWL {
+	"ValveBiped.Bip01_Pelvis" 1.0
+	"ValveBiped.Bip01_Spine" 1.0
+	"ValveBiped.Bip01_Neck1" 0.0
+	"ValveBiped.Bip01_Head1" 0.0
+	"ValveBiped.Bip01_L_Thigh" 1.0
+	"ValveBiped.Bip01_L_Calf" 0.0
+	"ValveBiped.Bip01_R_Thigh" 1.0
+	"ValveBiped.Bip01_R_Calf" 0.0
+	}
+	
+$Weightlist AimlayerNoLeftArmWL {
+	"ValveBiped.Bip01_Pelvis" 1.0
+	"ValveBiped.Bip01_Spine" 1.0
+	"ValveBiped.Bip01_Spine1" 1.0
+	"ValveBiped.Bip01_Spine2" 1.0
+	"ValveBiped.Bip01_Spine4" 1.0
+	"ValveBiped.Bip01_Neck1" 0.0
+	"ValveBiped.Bip01_Head1" 0.0
+	"ValveBiped.Bip01_L_Clavicle" 0.5
+	"ValveBiped.Bip01_L_UpperArm" 0.2
+	"ValveBiped.Bip01_L_ForeArm"  0.1
+	"ValveBiped.Bip01_L_Thigh" 0.0
+	"ValveBiped.Bip01_L_Calf" 0.0
+	"ValveBiped.Bip01_R_Thigh" 0.0
+	"ValveBiped.Bip01_R_Calf" 0.0
+	}
+
+$Weightlist AimlayerSwimWL {
+	"ValveBiped.Bip01_Pelvis" 0.4
+	"ValveBiped.Bip01_Spine" 0.5
+	"ValveBiped.Bip01_Spine1" 0.6
+	"ValveBiped.Bip01_Spine2" 0.7
+	"ValveBiped.Bip01_Spine4" 0.8
+	"ValveBiped.Bip01_Neck1" 0.0
+	"ValveBiped.Bip01_Head1" 0.0
+	"ValveBiped.Bip01_L_Clavicle" 0.85
+	"ValveBiped.Bip01_L_UpperArm" 0.92
+	"ValveBiped.Bip01_L_ForeArm"  1.00
+	"ValveBiped.Bip01_R_Clavicle" 0.85
+	"ValveBiped.Bip01_R_UpperArm" 0.92
+	"ValveBiped.Bip01_R_ForeArm"  1.00
+	"ValveBiped.Bip01_L_Thigh" 0.0
+	"ValveBiped.Bip01_R_Thigh" 0.0
+	}
+
+$Weightlist AimlayerSwimNoLeftArmWL {
+	"ValveBiped.Bip01_Pelvis" 0.3
+	"ValveBiped.Bip01_Spine" 0.4
+	"ValveBiped.Bip01_Spine1" 0.5
+	"ValveBiped.Bip01_Spine2" 0.6
+	"ValveBiped.Bip01_Spine4" 0.7
+	"ValveBiped.Bip01_Neck1" 0.0
+	"ValveBiped.Bip01_Head1" 0.0
+	"ValveBiped.Bip01_L_Clavicle" 0.40
+	"ValveBiped.Bip01_L_UpperArm" 0.00
+	"ValveBiped.Bip01_R_Clavicle" 0.85
+	"ValveBiped.Bip01_R_UpperArm" 0.95
+	"ValveBiped.Bip01_R_ForeArm"  1.00
+	"ValveBiped.Bip01_L_Thigh" 0.0
+	"ValveBiped.Bip01_R_Thigh" 0.0
+	}	
+
+$Weightlist AimlayerWorldspaceBlend {
+	"valvebiped.Bip01_Pelvis" 0.0
+	"ValveBiped.Bip01_L_Thigh" 0.0
+	"ValveBiped.Bip01_R_Thigh" 0.0
+	"ValveBiped.Bip01_Spine" 0.10
+	"ValveBiped.Bip01_Spine1" 0.30
+	"ValveBiped.Bip01_Spine2" 0.50
+	"ValveBiped.Bip01_Spine4" 0.70
+	"ValveBiped.Bip01_L_Clavicle" 0.80
+	"ValveBiped.Bip01_L_UpperArm" 0.80
+	"ValveBiped.Bip01_L_ForeArm"  0.90
+	"ValveBiped.Bip01_L_Hand"     1.00
+	"ValveBiped.Bip01_R_Clavicle" 0.80
+	"ValveBiped.Bip01_R_UpperArm" 0.85
+	"ValveBiped.Bip01_R_ForeArm"  0.95
+	"ValveBiped.Bip01_R_Hand"     1.00
+	}
+
+$Weightlist AimlayerComposite {
+	"ValveBiped.Bip01_Pelvis" 1.0
+	"ValveBiped.Bip01_L_Thigh" 0.0
+	"ValveBiped.Bip01_R_Thigh" 0.0 
+	"ValveBiped.Bip01_Spine" 1.0
+	}	
+
+
+//normal weights
+
+$Weightlist UpperbodyBlend {
+	"valvebiped.Bip01_Pelvis" 0.1 
+	"ValveBiped.Bip01_L_Thigh" 0.0 
+	"ValveBiped.Bip01_R_Thigh" 0.0 
+	"ValveBiped.Bip01_Spine" 0.2 
+	"ValveBiped.Bip01_Spine1" 0.4 
+	"ValveBiped.Bip01_Spine2" 0.6 
+	"ValveBiped.Bip01_Spine4" 1.0
+	}
+
+$Weightlist UpperbodyBlend_NoLArm {
+	"valvebiped.Bip01_Pelvis" 0.1 
+	"ValveBiped.Bip01_L_Thigh" 0.0 
+	"ValveBiped.Bip01_R_Thigh" 0.0 
+	"ValveBiped.Bip01_Spine" 0.2 
+	"ValveBiped.Bip01_Spine1" 0.4 
+	"ValveBiped.Bip01_Spine2" 0.6 
+	"ValveBiped.Bip01_Spine4" 1.0
+	"ValveBiped.Bip01_L_Clavicle" 0.0 
+	}
+
+$Weightlist UpperbodyReplace_NoArms {
+	"Valvebiped.Bip01_Spine" 1.0
+	"ValveBiped.Bip01_R_Clavicle" 0.0 
+	"ValveBiped.Bip01_L_Clavicle" 0.0 
+	}
+
+$Weightlist UpperbodyReplace_NoLArm {
+	"Valvebiped.Bip01_Spine" 1.0
+	"ValveBiped.Bip01_L_Clavicle" 0.0 
+	}
+
+$Weightlist SlowerUpperbodyBlend {
+	"valvebiped.Bip01_Pelvis" 0.0 
+	"ValveBiped.Bip01_L_Thigh" 0.0 
+	"ValveBiped.Bip01_R_Thigh" 0.0 
+	"ValveBiped.Bip01_Spine" 0.1 
+	"ValveBiped.Bip01_Spine1" 0.3 
+	"ValveBiped.Bip01_Spine2" 0.4 
+	"ValveBiped.Bip01_Spine4" 0.66 
+	"ValveBiped.Bip01_R_Clavicle" 1.0 
+	"ValveBiped.Bip01_L_Clavicle" 1.0 
+	"ValveBiped.Bip01_Neck1" 1.0
+	}
+
+
+$Weightlist FasterUpperbodyBlend {
+	"valvebiped.Bip01_Pelvis" 0.4 
+	"ValveBiped.Bip01_L_Thigh" 0.0 
+	"ValveBiped.Bip01_R_Thigh" 0.0 
+	"ValveBiped.Bip01_Spine" 0.8 
+	"ValveBiped.Bip01_Spine1" 1.0
+	}
+
+$Weightlist FasterUpperbodyBlend_NoLArm {
+	"valvebiped.Bip01_Pelvis" 0.4 
+	"ValveBiped.Bip01_L_Thigh" 0.0 
+	"ValveBiped.Bip01_R_Thigh" 0.0 
+	"ValveBiped.Bip01_Spine" 0.8 
+	"ValveBiped.Bip01_Spine1" 1.0
+		"ValveBiped.Bip01_L_Clavicle" 0.0 
+	}
+
+//
+// make a 2D 3x3 aim overlay by extracting out individual frames and finding their 
+// difference from a neutral frame.
+//
+$definemacro makeaimlayer layername filename \\
+$animation a_$layername$_neutral $filename$ frame 4 4 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource \\
+$animation a_$layername$_down_left $filename$ frame 0 0 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_down_center $filename$ frame 1 1 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_down_right $filename$ frame 2 2 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_mid_left $filename$ frame 3 3 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_mid_center $filename$ frame 4 4 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_mid_right $filename$ frame 5 5 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_up_left $filename$ frame 6 6 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_up_center $filename$ frame 7 7 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_up_right $filename$ frame 8 8 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_straight_up $filename$ frame 7 7 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$sequence $layername$ { \\
+	// a_$layername$_straight_up	a_$layername$_straight_up	a_$layername$_straight_up \\
+	a_$layername$_down_left	a_$layername$_down_center	a_$layername$_down_right \\
+	a_$layername$_mid_left		a_$layername$_mid_center	a_$layername$_mid_right \\
+	a_$layername$_up_left		a_$layername$_up_center		a_$layername$_up_right \\
+	blendref a_$layername$_neutral \\
+	blendcenter a_$layername$_mid_center \\
+	blendwidth 3 blend body_yaw -45 45 blend body_pitch -45 45 \\
+	delta \\
+	iklock rfoot 1 0 iklock lfoot 1 0 \\
+	hidden \\
+	} \\
+$continue $layername$
+
+$definemacro makeaimlayer_twohanded layername filename \\
+$animation a_$layername$_neutral $filename$ frame 4 4 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource \\
+$animation a_$layername$_down_left $filename$ frame 0 0 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_down_center $filename$ frame 1 1 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_down_right $filename$ frame 2 2 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_mid_left $filename$ frame 3 3 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_mid_center $filename$ frame 4 4 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_mid_right $filename$ frame 5 5 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_up_left $filename$ frame 6 6 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_up_center $filename$ frame 7 7 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_up_right $filename$ frame 8 8 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$animation a_$layername$_straight_up $filename$ frame 7 7 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace ikrule lhand touch "ValveBiped.Bip01_R_Hand" usesource  \\
+$sequence $layername$ { \\
+	// a_$layername$_straight_up	a_$layername$_straight_up	a_$layername$_straight_up \\
+	a_$layername$_down_left	a_$layername$_down_center	a_$layername$_down_right \\
+	a_$layername$_mid_left		a_$layername$_mid_center	a_$layername$_mid_right \\
+	a_$layername$_up_left		a_$layername$_up_center		a_$layername$_up_right \\
+	blendref a_$layername$_neutral \\
+	blendcenter a_$layername$_mid_center \\
+	blendwidth 3 blend body_yaw 45 -45 blend body_pitch -45 45 \\
+	delta \\
+	iklock rfoot 1 0 iklock lfoot 1 0 \\
+	hidden \\
+	} \\
+$continue $layername$
+
+$definemacro makeaimlayer_noL layername filename \\
+$animation a_$layername$_neutral $filename$ frame 4 4 weightlist HipsUpperbodyReplace\\
+$animation a_$layername$_down_left $filename$ frame 0 0 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace   \\
+$animation a_$layername$_down_center $filename$ frame 1 1 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace  \\
+$animation a_$layername$_down_right $filename$ frame 2 2 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace  \\
+$animation a_$layername$_mid_left $filename$ frame 3 3 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace  \\
+$animation a_$layername$_mid_center $filename$ frame 4 4 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace  \\
+$animation a_$layername$_mid_right $filename$ frame 5 5 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace  \\
+$animation a_$layername$_up_left $filename$ frame 6 6 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace  \\
+$animation a_$layername$_up_center $filename$ frame 7 7 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace  \\
+$animation a_$layername$_up_right $filename$ frame 8 8 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace  \\
+$animation a_$layername$_straight_up $filename$ frame 7 7 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace  \\
+$sequence $layername$ { \\
+	// a_$layername$_straight_up	a_$layername$_straight_up	a_$layername$_straight_up \\
+	a_$layername$_down_left	a_$layername$_down_center	a_$layername$_down_right \\
+	a_$layername$_mid_left		a_$layername$_mid_center	a_$layername$_mid_right \\
+	a_$layername$_up_left		a_$layername$_up_center		a_$layername$_up_right \\
+	blendref a_$layername$_neutral \\
+	blendcenter a_$layername$_mid_center \\
+	blendwidth 3 blend body_yaw -45 45 blend body_pitch -45 45 \\
+	delta \\
+	iklock rfoot 1 0 iklock lfoot 1 0 \\
+	hidden \\
+	} \\
+$continue $layername$
+
+$definemacro makeaimlayerC layername filename \\
+$animation a_$layername$_neutral $filename$ frame 4 4 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_down_left $filename$ frame 0 0 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_down_center $filename$ frame 1 1 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_down_right $filename$ frame 2 2 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_left $filename$ frame 3 3 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_center $filename$ frame 4 4 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_right $filename$ frame 5 5 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_left $filename$ frame 6 6 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_center $filename$ frame 7 7 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_right $filename$ frame 8 8 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_straight_up $filename$ frame 7 7 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$sequence $layername$ { \\
+	// a_$layername$_straight_up	a_$layername$_straight_up	a_$layername$_straight_up \\
+	a_$layername$_down_right	a_$layername$_down_center	a_$layername$_down_left \\
+	a_$layername$_mid_right		a_$layername$_mid_center	a_$layername$_mid_left \\
+	a_$layername$_up_right		a_$layername$_up_center		a_$layername$_up_left \\
+	blendref a_$layername$_neutral \\
+	blendcenter a_$layername$_mid_center \\
+	blendwidth 3 blend body_yaw -45 45 blend body_pitch -45 45 \\
+	delta \\
+	iklock rfoot 1 0 iklock lfoot 1 0 \\
+	hidden \\
+	} \\
+$continue $layername$
+
+//
+// make a 2D 2x3 aim overlay by extracting out individual frames and finding their 
+// difference from a neutral frame.
+//
+$definemacro makeaimlayerB layername filename \\
+$animation a_$layername$_neutral $filename$ frame 1 1 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_left $filename$ frame 0 0 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_center $filename$ frame 1 1 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_right $filename$ frame 2 2 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_left $filename$ frame 3 3 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_center $filename$ frame 4 4 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_right $filename$ frame 5 5 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_straight_up $filename$ frame 6 6 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$sequence $layername$ { \\
+	a_$layername$_mid_left a_$layername$_mid_center a_$layername$_mid_right \\
+	a_$layername$_up_left a_$layername$_up_center a_$layername$_up_right \\
+	a_$layername$_straight_up a_$layername$_straight_up a_$layername$_straight_up \\
+	blendref a_$layername$_neutral \\
+	blendcenter a_$layername$_mid_center \\
+	blendwidth 3 blend body_yaw -45 45 blend body_pitch 0 90 \\
+	delta \\
+	iklock rfoot 1 0 iklock lfoot 1 0 \\
+	hidden \\
+	} \\
+$continue $layername$
+
+$definemacro makeaimlayerD layername filename \\
+$animation a_$layername$_neutral $filename$ frame 4 4 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_down_left $filename$ frame 0 0 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_down_center $filename$ frame 1 1 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_down_right $filename$ frame 2 2 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_left $filename$ frame 3 3 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_center $filename$ frame 4 4 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_right $filename$ frame 5 5 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_left $filename$ frame 6 6 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_center $filename$ frame 7 7 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_right $filename$ frame 8 8 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_straight_up $filename$ frame 7 7 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$sequence $layername$ { \\
+	// a_$layername$_straight_up	a_$layername$_straight_up	a_$layername$_straight_up \\
+	a_$layername$_down_right	a_$layername$_down_center	a_$layername$_down_left \\
+	a_$layername$_mid_right		a_$layername$_mid_center	a_$layername$_mid_left \\
+	a_$layername$_up_right		a_$layername$_up_center		a_$layername$_up_left \\
+	blendref a_$layername$_neutral \\
+	blendcenter a_$layername$_mid_center \\
+	blendwidth 3 blend body_yaw -45 45 blend body_pitch -45 45 \\
+	delta \\
+	iklock rfoot 1 0 iklock lfoot 1 0 \\
+	hidden \\
+	} \\
+$continue $layername$
+
+//
+// make an idle animation from a single frame, add in aiming
+//
+$definemacro makeidle idlename filename frame aimlayer \\
+$sequence $idlename$ $filename$ alignto reference frame $frame$ $frame$ numframes 30 loop addlayer $aimlayer$ \\
+$continue $idlename$
+
+
+// ------------------------------------
+// MAKE RUN
+// ------------------------------------
+
+$definemacro MakeRunBlends runname direction filename frame \\
+$animation a_run_$runname$_$direction$ valve\male_humans\run$direction$ { \\
+	LX LY \\
+	startloop 0 \\
+	alignto reference \\
+	weightlist AimlayerWorldspaceBlend \\
+	worldspaceblend a_$runname$_pose \\
+	weightlist AllBones \\
+} \\
+$continue a_run_$runname$_$direction$ \\
+
+$definemacro makematchrun runname filename frame aimlayer \\
+$animation a_$runname$_pose $filename$ frame $frame$ $frame$ \\
+$MakeRunBlends $runname$ SW $filename$ $frame$ \\
+$MakeRunBlends $runname$ S  $filename$ $frame$ \\
+$MakeRunBlends $runname$ SE $filename$ $frame$ \\
+$MakeRunBlends $runname$ W  $filename$ $frame$ \\
+$MakeRunBlends $runname$ E  $filename$ $frame$ \\
+$MakeRunBlends $runname$ NW $filename$ $frame$ \\
+$MakeRunBlends $runname$ N  $filename$ $frame$ \\
+$MakeRunBlends $runname$ NE $filename$ $frame$ \\
+$animation a_run_$runname$_C valve\male_humans\idle_subtle { \\
+	LX LY \\
+	startloop 0 \\
+	alignto reference \\
+	weightlist AimlayerWorldspaceBlend \\
+	worldspaceblend a_$runname$_pose \\
+	weightlist AllBones \\
+} \\
+$sequence $runname$ { \\
+	a_run_$runname$_SW  a_run_$runname$_S a_run_$runname$_SE \\
+	a_run_$runname$_W	a_run_$runname$_C a_run_$runname$_E  \\
+	a_run_$runname$_NW  a_run_$runname$_N a_run_$runname$_NE \\
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1 \\
+	addlayer $aimlayer$ \\
+	fadein 0.3 fadeout 0.3 loop \\
+	node "running" \\
+	} \\
+$continue $runname$
+
+$definemacro MakeRunBlends_NoL runname direction filename frame \\
+$animation a_run_$runname$_$direction$ valve\male_humans\run$direction$ { \\
+	LX LY \\
+	startloop 0 \\
+	alignto reference \\
+	weightlist MakeRunNoLeftArm \\
+	worldspaceblend a_$runname$_pose \\
+	weightlist AllBones \\
+} \\
+$continue a_run_$runname$_$direction$ \\
+
+$definemacro makematchrunB runname filename frame aimlayer \\
+$animation a_$runname$_pose $filename$ frame $frame$ $frame$ \\
+$MakeRunBlends_NoL $runname$ SW $filename$ $frame$ \\
+$MakeRunBlends_NoL $runname$ S  $filename$ $frame$ \\
+$MakeRunBlends_NoL $runname$ SE $filename$ $frame$ \\
+$MakeRunBlends_NoL $runname$ W  $filename$ $frame$ \\
+$MakeRunBlends_NoL $runname$ E  $filename$ $frame$ \\
+$MakeRunBlends_NoL $runname$ NW $filename$ $frame$ \\
+$MakeRunBlends_NoL $runname$ N  $filename$ $frame$ \\
+$MakeRunBlends_NoL $runname$ NE $filename$ $frame$ \\
+$animation a_run_$runname$_C valve\male_humans\idle_subtle { \\
+	LX LY \\
+	startloop 0 \\
+	alignto reference \\
+	weightlist MakeRunNoLeftArm \\
+	worldspaceblend a_$runname$_pose \\
+	weightlist AllBones \\
+} \\
+$sequence $runname$ { \\
+	a_run_$runname$_SW  a_run_$runname$_S a_run_$runname$_SE \\
+	a_run_$runname$_W	a_run_$runname$_C a_run_$runname$_E  \\
+	a_run_$runname$_NW  a_run_$runname$_N a_run_$runname$_NE \\
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1 \\
+	addlayer $aimlayer$ \\
+	fadein 0.3 fadeout 0.3 loop \\
+	node "running" \\
+	} \\
+$continue $runname$
+
+//
+// make an idle animation from a single frame, add in aiming
+//
+$definemacro makecidle cidlename filename frame aimlayer \\
+$sequence $cidlename$ $filename$ alignto reference frame $frame$ $frame$ numframes 30 loop addlayer $aimlayer$ \\
+$continue $cidlename$
+
+//
+// make an idle animation from a composite of a standing animation and a crouch animation, add in aiming
+//
+$definemacro makecidleB cidlename filename frame filenameB frameB aimlayer \\
+$animation a_$cidlename$_base $filename$ frame $frame$ $frame$ \\
+$sequence $cidlename$ $filenameB$ { \\
+	frame $frameB$ $frameB$ \\
+	alignto reference \\
+	weightlist UpperbodyBlend \\
+	worldspaceblend a_$cidlename$_base \\
+	weightlist AllBones \\
+	addlayer $aimlayer$ \\
+	loop \\ 
+	} \\
+$continue $cidlename$
+
+//
+// make a crouched walking animation from a world spacecomposite of an upper body animation
+// and a crouch walkN animation, then blend them on top of a multiway walk and aiming
+//
+$definemacro MakeCrouchWalkBlends crouch_walkname direction filename frame \\
+$animation a_crouch_walk_$crouch_walkname$_$direction$ valve\male_humans\crouch_walk$direction$ { \\
+	LX LY \\
+	startloop 0 \\
+	alignto reference \\
+	weightlist AimlayerWorldSpaceBlend \\
+	worldspaceblend a_$crouch_walkname$_pose \\
+	weightlist AllBones \\
+} \\
+$continue a_crouch_walk_$crouch_walkname$_$direction$ \\
+
+$definemacro makecwalk crouch_walkname filename frame aimlayer \\
+$animation a_$crouch_walkname$_pose $filename$ frame $frame$ $frame$ \\
+$MakeCrouchWalkBlends $crouch_walkname$ SW $filename$ $frame$ \\
+$MakeCrouchWalkBlends $crouch_walkname$ S  $filename$ $frame$ \\
+$MakeCrouchWalkBlends $crouch_walkname$ SE $filename$ $frame$ \\
+$MakeCrouchWalkBlends $crouch_walkname$ W  $filename$ $frame$ \\
+$MakeCrouchWalkBlends $crouch_walkname$ E  $filename$ $frame$ \\
+$MakeCrouchWalkBlends $crouch_walkname$ NW $filename$ $frame$ \\
+$MakeCrouchWalkBlends $crouch_walkname$ N  $filename$ $frame$ \\
+$MakeCrouchWalkBlends $crouch_walkname$ NE $filename$ $frame$ \\
+$animation a_crouch_walk_$crouch_walkname$_C gordonfreakman\crouch_walkNInPlace { \\
+	LX LY \\
+	startloop 0 \\
+	alignto reference \\
+	weightlist AimlayerWorldSpaceBlend \\
+	worldspaceblend a_$crouch_walkname$_pose \\
+	weightlist AllBones \\
+} \\
+$sequence $crouch_walkname$ { \\
+	a_crouch_walk_$crouch_walkname$_SW  a_crouch_walk_$crouch_walkname$_S a_crouch_walk_$crouch_walkname$_SE \\
+	a_crouch_walk_$crouch_walkname$_W	a_crouch_walk_$crouch_walkname$_C a_crouch_walk_$crouch_walkname$_E  \\
+	a_crouch_walk_$crouch_walkname$_NW  a_crouch_walk_$crouch_walkname$_N a_crouch_walk_$crouch_walkname$_NE \\
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1 \\
+	addlayer $aimlayer$ \\
+	fadein 0.3 fadeout 0.3 loop \\
+	node "crouch_walkning" \\
+	} \\
+$continue $crouch_walkname$
+
+
+$definemacro MakeCrouchWalkBlends_NoL crouch_walkname direction filename frame \\
+$animation a_crouch_walk_$crouch_walkname$_$direction$ valve\male_humans\crouch_walk$direction$ { \\
+	LX LY \\
+	startloop 0 \\
+	alignto reference \\
+	weightlist MakeCrouchWalkNoLeftArm \\
+	worldspaceblend a_$crouch_walkname$_pose \\
+	weightlist AllBones \\
+} \\
+$continue a_crouch_walk_$crouch_walkname$_$direction$ \\
+
+$definemacro makecwalkB crouch_walkname filename frame aimlayer \\
+$animation a_$crouch_walkname$_pose $filename$ frame $frame$ $frame$ \\
+$MakeCrouchWalkBlends_NoL $crouch_walkname$ SW $filename$ $frame$ \\
+$MakeCrouchWalkBlends_NoL $crouch_walkname$ S  $filename$ $frame$ \\
+$MakeCrouchWalkBlends_NoL $crouch_walkname$ SE $filename$ $frame$ \\
+$MakeCrouchWalkBlends_NoL $crouch_walkname$ W  $filename$ $frame$ \\
+$MakeCrouchWalkBlends_NoL $crouch_walkname$ E  $filename$ $frame$ \\
+$MakeCrouchWalkBlends_NoL $crouch_walkname$ NW $filename$ $frame$ \\
+$MakeCrouchWalkBlends_NoL $crouch_walkname$ N  $filename$ $frame$ \\
+$MakeCrouchWalkBlends_NoL $crouch_walkname$ NE $filename$ $frame$ \\
+$animation a_crouch_walk_$crouch_walkname$_C gordonfreakman\crouch_walkNInPlace { \\
+	LX LY \\
+	startloop 0 \\
+	alignto reference \\
+	weightlist MakeCrouchWalkNoLeftArm \\
+	worldspaceblend a_$crouch_walkname$_pose \\
+	weightlist AllBones \\
+} \\
+$sequence $crouch_walkname$ { \\
+	a_crouch_walk_$crouch_walkname$_SW  a_crouch_walk_$crouch_walkname$_S a_crouch_walk_$crouch_walkname$_SE \\
+	a_crouch_walk_$crouch_walkname$_W	a_crouch_walk_$crouch_walkname$_C a_crouch_walk_$crouch_walkname$_E  \\
+	a_crouch_walk_$crouch_walkname$_NW  a_crouch_walk_$crouch_walkname$_N a_crouch_walk_$crouch_walkname$_NE \\
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1 \\
+	addlayer $aimlayer$ \\
+	fadein 0.3 fadeout 0.3 loop \\
+	node "crouch_walkning" \\
+	} \\
+$continue $crouch_walkname$
+
+//
+// make a simple delta animation to add on to an upper body
+//
+$definemacro makerange rangename filename startframe \\
+$animation a_$rangename$ $filename$ subtract a_$rangename$ $startframe$ weightlist HipsUpperbodyReplace \\
+$sequence $rangename$ a_$rangename$ { \\
+	iklock lfoot 1 0 iklock rfoot 1 0 \\
+	delta \\
+	} \\
+$continue $rangename$
+
+//
+// make a simple delta animation to add on to an upper body
+//
+$definemacro makerangeB rangename filename startframe peakFrame tailFrame endFrame \\
+$animation a_$rangename$_startpose $filename$ frames 0 0 \\
+$sequence layer_$rangename$_arms $filename$ weightlist ArmsReplace { \\
+	hidden \\
+} \\
+$sequence layer_$rangename$_spine $filename$ subtract a_$rangename$_startpose 0 weightlist UpperbodyReplace_NoArms delta { \\
+	hidden \\
+} \\
+$animation a_$rangename$ valve\male_humans\ragdoll_pose frames 0 0 \\
+$sequence $rangename$ a_$rangename$ { \\
+	iklock lfoot 1 0 iklock rfoot 1 0 \\
+	numframes $endFrame$ \\
+	subtract a_$rangename$ 0 \\
+	blendlayer layer_$rangename$_arms $startframe$ $peakFrame$ $tailFrame$ $endFrame$ \\
+	blendlayer layer_$rangename$_spine $startframe$ $peakFrame$ $tailFrame$ $endFrame$ \\
+	delta \\
+	} \\
+$continue $rangename$
+
+$definemacro makerangeC rangename filename startframe peakFrame tailFrame endFrame \\
+$animation a_$rangename$_startpose "fyzure/shotgun_load_start" frames 0 0 \\
+$sequence layer_$rangename$_arms $filename$ weightlist ArmsReplace { \\
+	hidden \\
+} \\
+$sequence layer_$rangename$_spine $filename$ subtract a_$rangename$_startpose 0 weightlist UpperbodyReplace_NoArms delta { \\
+	hidden \\
+} \\
+$animation a_$rangename$ valve\male_humans\ragdoll_pose frames 0 0 \\
+$sequence $rangename$ a_$rangename$ { \\
+	iklock lfoot 1 0 iklock rfoot 1 0 \\
+	numframes $endFrame$ \\
+	subtract a_$rangename$ 0 \\
+	blendlayer layer_$rangename$_arms $startframe$ $peakFrame$ $tailFrame$ $endFrame$ \\
+	blendlayer layer_$rangename$_spine $startframe$ $peakFrame$ $tailFrame$ $endFrame$ \\
+	delta \\
+	} \\
+$continue $rangename$
+
+//
+// make a jump animation from a composite of an upper body pose and the CS jump
+//
+$definemacro makejump jumpname filename frame aimlayer \\
+$animation a_$jumpname$ $filename$ frame $frame$ $frame$ \\
+$sequence $jumpname$ "fyzure/jump_all_start.smd" { \\
+	weightlist AimlayerWorldSpaceBlend \\
+	worldspaceblend a_$jumpname$ \\
+	weightlist AllBones \\
+	addlayer $aimlayer$ \\
+	fps 24 \\
+	} \\
+$continue $jumpname$
+
+//
+// make a jump animation from a composite of an upper body pose and the CS jump
+//
+$definemacro makejumpB jumpname filename frame \\
+$animation "a_$jumpname$_c" "fyzure/jump_all_start.smd" \\
+$animation a_$jumpname$ $filename$ frame $frame$ $frame$ \\
+$sequence $jumpname$ "fyzure/jump_all_start.smd" { \\
+	weightlist AimlayerNoLeftArmWL \\
+	worldspaceblend a_$jumpname$ \\
+	weightlist AllBones \\
+	fps 24 \\
+	} \\
+$continue $jumpname$
+
+//
+// make a upper body replacement animation
+//
+$definemacro makereload reloadname filename \\
+$sequence $reloadname$ $filename$ { \\
+	weightlist AimlayerWorldSpaceBlend \\
+	iklock lfoot 1 0 iklock rfoot 1 0 \\
+	} \\
+$continue $reloadname$
+
+//
+// make a glide animation from a composite of an upper body pose and the CS glide
+//
+$definemacro makeglide glidename filename frame aimlayer \\
+$animation a_$glidename$ $filename$ frame $frame$ $frame$ \\
+$sequence $glidename$ "fyzure/jump_all_loop.smd" { \\
+	weightlist AimlayerWorldSpaceBlend \\
+	worldspaceblend a_$glidename$ \\
+	weightlist AllBones \\
+	addlayer $aimlayer$ \\
+	fps 15 \\
+	loop \\
+	} \\
+$continue $glidename$
+
+//
+// make a glide animation from a composite of an upper body pose and the CS glide
+//
+$definemacro makeglideB glidename filename frame \\
+$animation "a_$glidename$_c" "fyzure/jump_all_loop.smd" \\
+$animation a_$glidename$ $filename$ frame $frame$ $frame$ \\
+$sequence $glidename$ "fyzure/jump_all_loop.smd" { \\
+	weightlist AimlayerNoLeftArmWL \\
+	worldspaceblend a_$glidename$ \\
+	weightlist AllBones \\
+	fps 15 \\
+	loop \\
+	} \\
+$continue $glidename$
+
+//
+// make a backhop animation from a composite of an upper body pose and the CS backhop
+//
+$definemacro makebackhop backhopname filename frame aimlayer \\
+$animation a_$backhopname$ $filename$ frame $frame$ $frame$ \\
+$sequence $backhopname$ "fyzure/backhop_start.smd" { \\
+	weightlist AimlayerWorldSpaceBlend \\
+	worldspaceblend a_$backhopname$ \\
+	weightlist AllBones \\
+	addlayer $aimlayer$ \\
+	fps 45 \\
+	} \\
+$continue $backhopname$
+
+//
+// make a backhop animation from a composite of an upper body pose and the CS backhop
+//
+$definemacro makebackhopB backhopname filename frame \\
+$sequence $backhopname$ "fyzure/backhop_start.smd" { \\
+	fps 45 \\
+	} \\
+$continue $backhopname$
+
+//
+// make a bhopglide animation from a composite of an upper body pose and the CS bhopglide
+//
+$definemacro makebhopglide bhopglidename filename frame aimlayer \\
+$animation a_$bhopglidename$ $filename$ frame $frame$ $frame$ \\
+$sequence $bhopglidename$ "fyzure/backhop_loop.smd" { \\
+	weightlist AimlayerWorldSpaceBlend \\
+	worldspaceblend a_$bhopglidename$ \\
+	weightlist AllBones \\
+	fps 15 \\
+	loop \\
+	} \\
+$continue $bhopglidename$
+
+//
+// make a bhopglide animation from a composite of an upper body pose and the CS bhopglide
+//
+$definemacro makebhopglideB bhopglidename filename frame \\
+$sequence $bhopglidename$ "fyzure/backhop_loop.smd" { \\
+	fps 15 \\
+	loop \\
+	} \\
+$continue $bhopglidename$
+
+
+
+
+
+$definemacro MakeSprintBlends sprintname direction filename frame \\
+$animation a_sprint_$sprintname$_$direction$ valve/male_humans/alternative_sprint/a_Run$direction$ { \\
+	LX LY \\
+	startloop 0 \\
+	alignto reference \\
+	weightlist AimlayerWorldSpaceBlend \\
+	worldspaceblend a_$sprintname$_pose \\
+	weightlist AllBones \\
+	fps 40 \\
+} \\
+$continue a_sprint_$sprintname$_$direction$ \\
+
+$definemacro MakeSprintBlends_NoL sprintname direction filename frame \\
+$animation a_sprint_$sprintname$_$direction$ valve/male_humans/alternative_sprint/a_Run$direction$ { \\
+	LX LY \\
+	startloop 0 \\
+	alignto reference \\
+	weightlist MakeRunNoLeftArm \\
+	worldspaceblend a_$sprintname$_pose \\
+	weightlist AllBones \\
+	fps 40 \\
+} \\
+$continue a_sprint_$sprintname$_$direction$ \\
+
+$definemacro makematchsprint sprintname filename frame aimlayer \\
+$animation a_$sprintname$_pose $filename$ frame $frame$ $frame$ \\
+$MakeSprintBlends $sprintname$ SW $filename$ $frame$ \\
+$MakeSprintBlends $sprintname$ S  $filename$ $frame$ \\
+$MakeSprintBlends $sprintname$ SE $filename$ $frame$ \\
+$MakeSprintBlends $sprintname$ W  $filename$ $frame$ \\
+$MakeSprintBlends $sprintname$ E  $filename$ $frame$ \\
+$MakeSprintBlends $sprintname$ NW $filename$ $frame$ \\
+$MakeSprintBlends $sprintname$ N  $filename$ $frame$ \\
+$MakeSprintBlends $sprintname$ NE $filename$ $frame$ \\
+$animation a_sprint_$sprintname$_C valve\male_humans\idle_subtle { \\
+	LX LY \\
+	startloop 0 \\
+	alignto reference \\
+	weightlist AimlayerWorldSpaceBlend \\
+	worldspaceblend a_$sprintname$_pose \\
+	weightlist AllBones \\
+} \\
+$sequence $sprintname$ { \\
+	a_sprint_$sprintname$_SW  a_sprint_$sprintname$_S a_sprint_$sprintname$_SE \\
+	a_sprint_$sprintname$_W	a_sprint_$sprintname$_C a_sprint_$sprintname$_E  \\
+	a_sprint_$sprintname$_NW  a_sprint_$sprintname$_N a_sprint_$sprintname$_NE \\
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1 \\
+	addlayer $aimlayer$ \\
+	fadein 0.3 fadeout 0.3 loop \\
+	node "sprintning" \\
+	} \\
+$continue $sprintname$
+
+$definemacro makematchsprintB sprintname filename frame aimlayer \\
+$animation a_$sprintname$_pose $filename$ frame $frame$ $frame$ \\
+$MakeSprintBlends_NoL $sprintname$ SW $filename$ $frame$ \\
+$MakeSprintBlends_NoL $sprintname$ S  $filename$ $frame$ \\
+$MakeSprintBlends_NoL $sprintname$ SE $filename$ $frame$ \\
+$MakeSprintBlends_NoL $sprintname$ W  $filename$ $frame$ \\
+$MakeSprintBlends_NoL $sprintname$ E  $filename$ $frame$ \\
+$MakeSprintBlends_NoL $sprintname$ NW $filename$ $frame$ \\
+$MakeSprintBlends_NoL $sprintname$ N  $filename$ $frame$ \\
+$MakeSprintBlends_NoL $sprintname$ NE $filename$ $frame$ \\
+$animation a_sprint_$sprintname$_C valve\male_humans\idle_subtle { \\
+	LX LY \\
+	startloop 0 \\
+	alignto reference \\
+	weightlist MakeRunNoLeftArm \\
+	worldspaceblend a_$sprintname$_pose \\
+	weightlist AllBones \\
+} \\
+$sequence $sprintname$ { \\
+	a_sprint_$sprintname$_SW  a_sprint_$sprintname$_S a_sprint_$sprintname$_SE \\
+	a_sprint_$sprintname$_W	a_sprint_$sprintname$_C a_sprint_$sprintname$_E  \\
+	a_sprint_$sprintname$_NW  a_sprint_$sprintname$_N a_sprint_$sprintname$_NE \\
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1 \\
+	addlayer $aimlayer$ \\
+	fadein 0.3 fadeout 0.3 loop \\
+	node "sprintning" \\
+	} \\
+$continue $sprintname$
+
+

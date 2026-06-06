@@ -1,0 +1,9 @@
+$sequence layer_taunt_killer_time "taunt_killer_time.dmx" fps 30.000000 hidden
+$sequence taunt_killer_time "taunt_killer_time.dmx" fps 30.000000 noanimation {
+	numframes 281
+	blendlayer layer_taunt_killer_time 0 -1 270 280
+	ikrule lhand release 
+	event AE_WPN_HIDE 0
+	//event AE_WPN_UNHIDE 2
+	event AE_WPN_HIDE 280
+}

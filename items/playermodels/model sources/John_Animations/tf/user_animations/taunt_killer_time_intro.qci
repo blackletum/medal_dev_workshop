@@ -1,0 +1,8 @@
+$sequence layer_taunt_killer_time_intro "taunt_killer_time_intro.dmx" fps 30.000000 hidden
+$sequence taunt_killer_time_intro "taunt_killer_time_intro.dmx" fps 30.000000 noanimation {
+	numframes 837
+	blendlayer layer_taunt_killer_time_intro 0 0 836 836
+	ikrule lhand release 
+	event AE_WPN_HIDE 0
+
+}
