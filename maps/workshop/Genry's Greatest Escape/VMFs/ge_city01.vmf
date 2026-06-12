@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "572"
+	"mapversion" "573"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "572"
+	"mapversion" "573"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -30825,7 +30825,7 @@ entity
 		"OnPlayerPickup" "sqe,BeginSequence,,0,-1"
 		"OnPlayerPickup" "door_player,Open,,0,-1"
 		"OnPlayerPickup" "door_player,Unlock,,0,-1"
-		"OnPlayerPickup" "command,Command,cl_drawhud 0,0,-1"
+		"_OnPlayerPickup" "command,Command,cl_drawhud 0,0,-1"
 	}
 	"origin" "638.794 281.364 54.3725"
 	editor
@@ -68018,10 +68018,10 @@ entity
 	connections
 	{
 		"OnMapSpawn" "pre_teleport,Enable,,0,-1"
-		"OnMapSpawn" "command,Command,crosshair 0,0,-1"
-		"OnMapSpawn" "command,Command,cl_drawhud 1,0,-1"
+		"_OnMapSpawn" "command,Command,crosshair 0,0,-1"
+		"_OnMapSpawn" "command,Command,cl_drawhud 1,0,-1"
 		"OnMapSpawn" "command,Command,give item_suit,19,-1"
-		"OnMapSpawn" "command,Command,cl_drawhud =,19,-1"
+		"_OnMapSpawn" "command,Command,cl_drawhud =,19,-1"
 	}
 	"origin" "258.974 -1099.55 -57"
 	editor
@@ -115963,7 +115963,7 @@ entity
 			{
 				"v" "-251.318 -88.3405 -176"
 				"v" "-255 -86 -176"
-				"v" "-255.01 -86 -160"
+				"v" "-255 -86 -160"
 				"v" "-251.288 -88.359 -160"
 			}
 			"material" "CONCRETE/CONCRETEFLOOR028C"
@@ -159138,8 +159138,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1845.62 1602.4 -114.121]"
-		"look" "[1846.12 1602.96 -114.801]"
+		"position" "[238 -1200 -57]"
+		"look" "[238 -1198.99 -57]"
 	}
 }
 cordons
