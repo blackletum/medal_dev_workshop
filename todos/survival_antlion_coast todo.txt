@@ -1,0 +1,14 @@
+Fix up wonkiness with reworked cliffs
+Make the cave hallways displacements
+
+Force Antlion Workers to get closer; would 
+
+Re-do wave logic, use VScript as I've got a much better grasp of it
+^ Maybe create custom enemy types with VScript? Possible ideas:
+- Hardshell Antlion; has an armored shell that grants it bullet resistance but is slower and still susceptible to being flipped
+- Explosive Antlion; Antlion Worker that is scarlet and prioritizes sentries and turrets over the generator
+- Antlion Grub; lol, maybe make it an actual enemy? Would be sent in huge swarms to compensate, mainly serving as sentry distraction fodder for other threats to capitalize on
+Antlion Guardian should spawn them routinely
+- Feral Vortigaunt; Vortigaunt who has taken his antlion herding too far and fights alongside feral herds of antlions
+
+Make the prop buying logic fully VScript-driven, using Argonian's VGUI menu system to create a list of buyable props on a keybind.
